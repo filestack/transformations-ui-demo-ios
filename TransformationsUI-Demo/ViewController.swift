@@ -27,6 +27,15 @@ class ViewController: UIViewController {
         guard let image = imageView.image else { return }
 
         let modules = PremiumModules()
+
+        modules.transform.cropCommands.append(
+            PremiumModules.Transform.Commands.Crop(type: .rect, aspectRatio: .original)
+        )
+
+        modules.transform.cropCommands.append(
+            PremiumModules.Transform.Commands.Crop(type: .rect, aspectRatio: .custom(CGSize(width: 16, height: 9)))
+        )
+
         let transformationsUI = TransformationsUI(with: Config(modules: modules))
 
         transformationsUI.delegate = self

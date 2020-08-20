@@ -26,7 +26,14 @@ class ViewController: UIViewController {
     @IBAction func presentTransformationsUI(_ sender: AnyObject) {
         guard let image = imageView.image else { return }
 
-        let modules = PremiumModules()
+        let modules: PremiumModules
+
+        do {
+            modules = try PremiumModules(apiKey: "YOUR-API-KEY")
+        } catch {
+            debugPrint("Error: \(error)")
+            return
+        }
 
         modules.transform.cropCommands.append(
             PremiumModules.Transform.Commands.Crop(type: .rect, aspectRatio: .original)

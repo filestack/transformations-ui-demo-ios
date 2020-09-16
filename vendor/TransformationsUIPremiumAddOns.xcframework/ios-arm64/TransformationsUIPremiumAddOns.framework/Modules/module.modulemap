@@ -1,0 +1,4 @@
+framework module TransformationsUIPremiumAddOns {
+  header "TransformationsUIPremiumAddOns-Swift.h"
+  requires objc
+}

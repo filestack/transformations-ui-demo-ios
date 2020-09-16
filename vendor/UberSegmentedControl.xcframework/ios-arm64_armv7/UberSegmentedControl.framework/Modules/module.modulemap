@@ -1,0 +1,4 @@
+framework module UberSegmentedControl {
+  header "UberSegmentedControl-Swift.h"
+  requires objc
+}

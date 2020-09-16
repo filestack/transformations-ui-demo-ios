@@ -1,0 +1,587 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TransformationsUIShared
+import AVFoundation
+import AVFoundation.AVUtilities
+import CoreGraphics
+import CoreImage
+import Foundation
+import MetalKit
+import Swift
+import UIKit.UIGeometry
+import UIKit
+import UberSegmentedControl
+@objc public class CircleCropLayer : QuartzCore.CALayer {
+  public var imageFrame: CoreGraphics.CGRect {
+    get
+    set
+  }
+  public var circleRadius: CoreGraphics.CGFloat {
+    get
+    set
+  }
+  public var circleCenter: CoreGraphics.CGPoint {
+    get
+    set
+  }
+  @objc override dynamic public init()
+  @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @objc deinit
+  @objc override dynamic public init(layer: Any)
+}
+extension CircleCropLayer {
+  public func updateColors()
+}
+@objc public class RectCropLayer : QuartzCore.CALayer {
+  public var imageFrame: CoreGraphics.CGRect {
+    get
+    set
+  }
+  public var cropRect: CoreGraphics.CGRect {
+    get
+    set
+  }
+  @objc override dynamic public init()
+  @objc required dynamic public init?(coder _: Foundation.NSCoder)
+  @objc deinit
+  @objc override dynamic public init(layer: Any)
+}
+extension RectCropLayer {
+  public func updateColors()
+}
+public protocol RectCropGesturesHandlerDelegate : TransformationsUIShared.EditDataSource {
+  func updateCropInset(_ inset: UIKit.UIEdgeInsets)
+}
+public class RectCropGesturesHandler {
+  weak public var delegate: TransformationsUIShared.RectCropGesturesHandlerDelegate?
+  public var croppedRect: CoreGraphics.CGRect {
+    get
+  }
+  public var actualEdgeInsets: UIKit.UIEdgeInsets {
+    get
+  }
+  public var keepAspectRatio: Swift.Bool {
+    get
+    set
+  }
+  public var aspectRatio: CoreGraphics.CGSize {
+    get
+    set
+  }
+  public var allowDraggingFromSides: Swift.Bool {
+    get
+    set
+  }
+  public init(delegate: TransformationsUIShared.RectCropGesturesHandlerDelegate, allowDraggingFromSides: Swift.Bool = true)
+  @objc deinit
+}
+extension RectCropGesturesHandler {
+  public func reset()
+  public func handlePanGesture(recognizer: UIKit.UIPanGestureRecognizer, in targetView: UIKit.UIView)
+}
+public protocol CircleCropGesturesHandlerDelegate : TransformationsUIShared.EditDataSource {
+  func updateCircle(_ center: CoreGraphics.CGPoint, radius: CoreGraphics.CGFloat)
+}
+public class CircleCropGesturesHandler {
+  weak public var delegate: TransformationsUIShared.CircleCropGesturesHandlerDelegate?
+  public init(delegate: TransformationsUIShared.CircleCropGesturesHandlerDelegate)
+  @objc deinit
+}
+extension CircleCropGesturesHandler {
+  public var circleCenter: CoreGraphics.CGPoint {
+    get
+    set
+  }
+  public var circleRadius: CoreGraphics.CGFloat {
+    get
+    set
+  }
+  public var actualCenter: CoreGraphics.CGPoint {
+    get
+  }
+  public var actualRadius: CoreGraphics.CGFloat {
+    get
+  }
+  public func handlePanGesture(recognizer: UIKit.UIPanGestureRecognizer, in targetView: UIKit.UIView)
+  public func reset()
+}
+@objc @_inheritsConvenienceInitializers open class ArrangeableViewController : UIKit.UIViewController {
+  public func defineConstraints(width: UIKit.UIUserInterfaceSizeClass, height: UIKit.UIUserInterfaceSizeClass, constraints: () -> [UIKit.NSLayoutConstraint])
+  @objc deinit
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+extension ArrangeableViewController {
+  @objc override dynamic public func viewWillLayoutSubviews()
+}
+@objc @_inheritsConvenienceInitializers open class ModuleViewController : TransformationsUIShared.ArrangeableViewController {
+  weak open var discardApplyDelegate: TransformationsUIShared.DiscardApplyToolbarDelegate?
+  open var zoomEnabled: Swift.Bool {
+    get
+    set
+  }
+  open var canScrollAndZoom: Swift.Bool {
+    get
+    set
+  }
+  open var scrollView: TransformationsUIShared.CenteredScrollView {
+    get
+  }
+  open var imageView: TransformationsUIShared.CIImageView {
+    get
+  }
+  final public let contentView: UIKit.UIView
+  final public let stackView: UIKit.UIStackView
+  @objc deinit
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+extension ModuleViewController {
+  @objc override dynamic open func viewDidLoad()
+  @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @objc override dynamic open func viewWillDisappear(_ animated: Swift.Bool)
+}
+extension ModuleViewController : UIKit.UIScrollViewDelegate {
+  @objc dynamic public func viewForZooming(in scrollView: UIKit.UIScrollView) -> UIKit.UIView?
+}
+extension UIEdgeInsets {
+  public func rounded(rule: Swift.FloatingPointRoundingRule = .toNearestOrAwayFromZero) -> UIKit.UIEdgeInsets
+  public func clipped() -> UIKit.UIEdgeInsets
+  public func adding(insets: UIKit.UIEdgeInsets) -> UIKit.UIEdgeInsets
+}
+extension CGRect {
+  public func scaled(by scale: CoreGraphics.CGFloat) -> CoreGraphics.CGRect
+  public func translated(using point: CoreGraphics.CGPoint) -> CoreGraphics.CGRect
+  public mutating func ensurePositiveSize()
+}
+extension CGPoint {
+  public func movedBy(x: CoreGraphics.CGFloat = 0, y: CoreGraphics.CGFloat = 0) -> CoreGraphics.CGPoint
+  public func scaledBy(x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -> CoreGraphics.CGPoint
+  public func adding(point: CoreGraphics.CGPoint) -> CoreGraphics.CGPoint
+  public func substracting(point: CoreGraphics.CGPoint) -> CoreGraphics.CGPoint
+}
+extension CGSize {
+  public func adding(width: CoreGraphics.CGFloat = 0, height: CoreGraphics.CGFloat = 0) -> CoreGraphics.CGSize
+}
+extension UIImage {
+  public static func fromBundle(_ name: Swift.String) -> UIKit.UIImage
+}
+extension UIView {
+  @discardableResult
+  public func fill(with subview: UIKit.UIView, connectingEdges: [UIKit.NSLayoutConstraint.Attribute] = [.top, .bottom, .left, .right], inset: CoreGraphics.CGFloat = 0, withSafeAreaRespecting useSafeArea: Swift.Bool = false, activate: Swift.Bool = false) -> [UIKit.NSLayoutConstraint]
+  @discardableResult
+  public func connect(edges: [UIKit.NSLayoutConstraint.Attribute], of subview: UIKit.UIView, inset: CoreGraphics.CGFloat = 0, withSafeAreaRespecting useSafeArea: Swift.Bool = false, activate: Swift.Bool = false) -> [UIKit.NSLayoutConstraint]
+}
+extension UIColor {
+  public static func fromBundle(_ name: Swift.String) -> UIKit.UIColor
+}
+extension CGPoint {
+  public enum Metric {
+    case euclidean
+    case manhattan
+    case maximum
+    public static func == (a: CoreGraphics.CGPoint.Metric, b: CoreGraphics.CGPoint.Metric) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+    public func hash(into hasher: inout Swift.Hasher)
+  }
+  public func distance(to point: CoreGraphics.CGPoint, metric: CoreGraphics.CGPoint.Metric = .euclidean) -> CoreGraphics.CGFloat
+  public func euclideanDistance(to point: CoreGraphics.CGPoint) -> CoreGraphics.CGFloat
+  public func manhattanDistance(to point: CoreGraphics.CGPoint) -> CoreGraphics.CGFloat
+  public func maximumDistance(to point: CoreGraphics.CGPoint) -> CoreGraphics.CGFloat
+}
+extension CGPoint {
+  public func rounded(rule: Swift.FloatingPointRoundingRule = .toNearestOrAwayFromZero) -> CoreGraphics.CGPoint
+}
+extension CGSize {
+  public func rounded(rule: Swift.FloatingPointRoundingRule = .toNearestOrAwayFromZero) -> CoreGraphics.CGSize
+}
+extension CGRect {
+  public func rounded(rule: Swift.FloatingPointRoundingRule = .toNearestOrAwayFromZero) -> CoreGraphics.CGRect
+  public func rounded(originRule: Swift.FloatingPointRoundingRule = .toNearestOrAwayFromZero, sizeRule: Swift.FloatingPointRoundingRule = .toNearestOrAwayFromZero) -> CoreGraphics.CGRect
+}
+extension UIImage {
+  public func cgImageBackedCopy() -> UIKit.UIImage?
+  public func ciImageBackedCopy() -> UIKit.UIImage?
+}
+public struct Constants {
+  public struct Size {
+  }
+  public struct Spacing {
+  }
+  public struct Color {
+  }
+  public struct Margin {
+  }
+  public struct Misc {
+  }
+  public struct Animations {
+  }
+  public struct ViewEffects {
+  }
+}
+extension Constants.Size {
+  public static let defaultToolbarHeight: CoreGraphics.CGFloat
+  public static let mediumToolbarHeight: CoreGraphics.CGFloat
+  public static let largeToolbarHeight: CoreGraphics.CGFloat
+  public static let segmentToolbarHeight: CoreGraphics.CGFloat
+  public static let toolbarItem: CoreGraphics.CGSize
+  public static let wideToolbarItem: CoreGraphics.CGSize
+  public static let toolbarIcon: CoreGraphics.CGSize
+}
+extension Constants.Spacing {
+  public static let toolbarItem: CoreGraphics.CGFloat
+  public static let toolbarInset: CoreGraphics.CGFloat
+  public static let insetContentLayout: UIKit.NSDirectionalEdgeInsets
+}
+extension Constants.Color {
+  public static let background: UIKit.UIColor
+  public static let moduleBackground: UIKit.UIColor
+  public static let innerToolbar: UIKit.UIColor
+  public static let defaultTint: UIKit.UIColor
+  public static let primaryActionTint: UIKit.UIColor
+}
+extension Constants.Misc {
+  public static let cropHandleRadius: CoreGraphics.CGFloat
+  public static let cropLineThickness: CoreGraphics.CGFloat
+  public static let cropOutsideOpacity: Swift.Float
+}
+extension Constants.Animations {
+  public static func `default`(duration: Foundation.TimeInterval = 0.25, delay: Foundation.TimeInterval = 0, animations: @escaping () -> Swift.Void, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+}
+extension Constants.ViewEffects {
+  public static let blur: UIKit.UIBlurEffect
+}
+public enum EditorToolbarItemMode {
+  case text
+  case image
+  case both
+  public static func == (a: TransformationsUIShared.EditorToolbarItemMode, b: TransformationsUIShared.EditorToolbarItemMode) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+public struct EditorToolbarItemStyle {
+  public var textAlignment: UIKit.NSTextAlignment
+  public var tintColor: UIKit.UIColor?
+  public var spacing: CoreGraphics.CGFloat
+  public var cornerRadius: CoreGraphics.CGFloat
+  public var mode: TransformationsUIShared.EditorToolbarItemMode
+  public init(_ build: (inout TransformationsUIShared.EditorToolbarItemStyle) -> Swift.Void)
+}
+public struct L18 {
+  public static let save: Swift.String
+  public static let cancel: Swift.String
+}
+extension EditorToolbarStyle {
+  public static let `default`: TransformationsUIShared.EditorToolbarStyle
+  public static let modules: TransformationsUIShared.EditorToolbarStyle
+  public static let segments: TransformationsUIShared.EditorToolbarStyle
+  public static let twoRowSegments: TransformationsUIShared.EditorToolbarStyle
+  public static let commands: TransformationsUIShared.EditorToolbarStyle
+  public static let largeCommands: TransformationsUIShared.EditorToolbarStyle
+  public static let boundedRangeCommand: TransformationsUIShared.EditorToolbarStyle
+}
+extension EditorToolbarItemStyle {
+  public static let `default`: TransformationsUIShared.EditorToolbarItemStyle
+  public static let textOnly: TransformationsUIShared.EditorToolbarItemStyle
+  public static let round: TransformationsUIShared.EditorToolbarItemStyle
+}
+public struct EditorToolbarStyle {
+  public var backgroundColor: UIKit.UIColor?
+  public var innerInset: CoreGraphics.CGFloat
+  public var itemSpacing: CoreGraphics.CGFloat
+  public var fixedHeight: CoreGraphics.CGFloat?
+  public var itemStyle: TransformationsUIShared.EditorToolbarItemStyle
+  public var axis: UIKit.NSLayoutConstraint.Axis
+  public init(_ build: (inout TransformationsUIShared.EditorToolbarStyle) -> Swift.Void)
+}
+public protocol StandardToolbarDelegate : AnyObject {
+  func toolbarItemSelected(toolbar: TransformationsUIShared.StandardToolbar, item: TransformationsUIShared.DescriptibleEditorItem, control: UIKit.UIControl)
+}
+@objc public class StandardToolbar : TransformationsUIShared.EditorToolbar {
+  weak public var delegate: TransformationsUIShared.StandardToolbarDelegate?
+  override public var items: [UIKit.UIView] {
+    get
+  }
+  final public let descriptibleItems: [TransformationsUIShared.DescriptibleEditorItem]
+  public var selectedItem: UIKit.UIView? {
+    get
+    set
+  }
+  public var selectedDescriptibleItem: TransformationsUIShared.DescriptibleEditorItem? {
+    get
+  }
+  public var shouldHighlightSelectedItem: Swift.Bool
+  override public var spacing: CoreGraphics.CGFloat {
+    get
+    set
+  }
+  required public init(items: [TransformationsUIShared.DescriptibleEditorItem], style: TransformationsUIShared.EditorToolbarStyle = .default)
+  @objc required dynamic public init(coder _: Foundation.NSCoder)
+  override public func setItems(_ items: [UIKit.UIView] = [], animated: Swift.Bool = false)
+  @objc deinit
+  override public init(style: TransformationsUIShared.EditorToolbarStyle = super)
+}
+@objc @_inheritsConvenienceInitializers public class SegmentedControlToolbar : TransformationsUIShared.StandardToolbar {
+  required public init(items: [TransformationsUIShared.DescriptibleEditorItem], style: TransformationsUIShared.EditorToolbarStyle = .segments)
+  @objc required dynamic public init(coder _: Foundation.NSCoder)
+  @objc deinit
+}
+extension SegmentedControlToolbar {
+  public func resetSelectedSegment(to index: Swift.Int = 0)
+}
+@objc public protocol DiscardApplyToolbarDelegate : AnyObject {
+  @objc func applySelected(sender: UIKit.UIButton)
+  @objc func discardSelected(sender: UIKit.UIButton)
+}
+@objc @_inheritsConvenienceInitializers public class DiscardApplyToolbar : TransformationsUIShared.EditorToolbar {
+  weak public var delegate: TransformationsUIShared.DiscardApplyToolbarDelegate?
+  override public var items: [UIKit.UIView] {
+    get
+  }
+  override public var spacing: CoreGraphics.CGFloat {
+    get
+    set
+  }
+  required override public init(style: TransformationsUIShared.EditorToolbarStyle = .default)
+  @objc required dynamic public init(coder _: Foundation.NSCoder)
+  override public func setItems(_ items: [UIKit.UIView] = [], animated: Swift.Bool = false)
+  @objc deinit
+}
+public protocol BoundedRangeCommandToolbarDelegate : AnyObject {
+  func toolbarSliderChanged(slider: UIKit.UISlider, for command: TransformationsUIShared.BoundedRangeCommand)
+  func toolbarSliderFinishedChanging(slider: UIKit.UISlider, for command: TransformationsUIShared.BoundedRangeCommand)
+}
+@objc public class BoundedRangeCommandToolbar : TransformationsUIShared.EditorToolbar {
+  weak public var delegate: TransformationsUIShared.BoundedRangeCommandToolbarDelegate?
+  public var command: TransformationsUIShared.BoundedRangeCommand {
+    get
+    set
+  }
+  public init(command: TransformationsUIShared.BoundedRangeCommand, style: TransformationsUIShared.EditorToolbarStyle = .default)
+  @objc required dynamic public init(coder: Foundation.NSCoder)
+  @objc deinit
+  override public init(style: TransformationsUIShared.EditorToolbarStyle = super)
+}
+extension BoundedRangeCommandToolbar {
+  public func updateValue(value: Swift.Double, at index: Swift.Int = 0)
+}
+@objc open class EditorToolbar : TransformationsUIShared.ArrangeableToolbar {
+  final public let style: TransformationsUIShared.EditorToolbarStyle
+  @objc override dynamic open var intrinsicContentSize: CoreGraphics.CGSize {
+    @objc get
+  }
+  override open func setItems(_ items: [UIKit.UIView] = [], animated: Swift.Bool = false)
+  public init(style: TransformationsUIShared.EditorToolbarStyle = .default)
+  @objc required dynamic public init(coder: Foundation.NSCoder)
+  @objc override dynamic public init()
+  override public init(items: [UIKit.UIView])
+  @objc deinit
+}
+extension EditorToolbar {
+  open func button(using image: UIKit.UIImage) -> UIKit.UIButton
+  open func button(using title: Swift.String) -> UIKit.UIButton
+  open func button(using title: Swift.String, image: UIKit.UIImage) -> TransformationsUIShared.TitledImageButton
+  open func label(titled title: Swift.String) -> UIKit.UILabel
+}
+@objc open class ArrangeableToolbar : UIKit.UIView {
+  open var shouldAutoAdjustAxis: Swift.Bool
+  open var distribution: UIKit.UIStackView.Distribution {
+    get
+    set
+  }
+  open var alignment: UIKit.UIStackView.Alignment {
+    get
+    set
+  }
+  open var axis: UIKit.NSLayoutConstraint.Axis {
+    get
+    set
+  }
+  open var spacing: CoreGraphics.CGFloat {
+    get
+    set
+  }
+  open var items: [UIKit.UIView] {
+    get
+  }
+  open var innerInset: CoreGraphics.CGFloat {
+    get
+    set
+  }
+  open func setCustomSpacing(_ spacing: CoreGraphics.CGFloat, after arrangedSubview: UIKit.UIView)
+  @objc dynamic public init()
+  public init(items: [UIKit.UIView])
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  public func addItem(_ item: UIKit.UIView)
+  public func insertItem(_ item: UIKit.UIView, at stackIndex: Swift.Int)
+  public func removeItem(_ item: UIKit.UIView)
+  public func removeAllItems()
+  public func setItems(_ items: [UIKit.UIView] = [], animated: Swift.Bool = false)
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc deinit
+}
+extension ArrangeableToolbar {
+  @objc override dynamic open func layoutSubviews()
+}
+@objc @_inheritsConvenienceInitializers public class TitledImageButton : TransformationsUIShared.ToolbarButton {
+  public var spacing: CoreGraphics.CGFloat
+  @objc override dynamic public func titleRect(forContentRect contentRect: CoreGraphics.CGRect) -> CoreGraphics.CGRect
+  @objc override dynamic public func imageRect(forContentRect contentRect: CoreGraphics.CGRect) -> CoreGraphics.CGRect
+  @objc override dynamic public var intrinsicContentSize: CoreGraphics.CGSize {
+    @objc get
+  }
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class CenteredScrollView : UIKit.UIScrollView {
+  public var extraContentInset: UIKit.UIEdgeInsets {
+    get
+    set
+  }
+  @objc override dynamic public func layoutSubviews()
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class ToolbarButton : UIKit.UIButton {
+  public var imageCornerRadius: CoreGraphics.CGFloat {
+    get
+    set
+  }
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc public class ToolbarScrollView : TransformationsUIShared.CenteredScrollView {
+  @objc dynamic public init()
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc override dynamic public func touchesShouldCancel(in view: UIKit.UIView) -> Swift.Bool
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc deinit
+}
+@objc public class VisualFXWrapperView : UIKit.UIVisualEffectView {
+  @objc override dynamic public var intrinsicContentSize: CoreGraphics.CGSize {
+    @objc get
+  }
+  public init(wrapping view: UIKit.UIView, usingBlurEffect effect: UIKit.UIBlurEffect)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+  @objc override dynamic public init(effect: UIKit.UIVisualEffect?)
+}
+public protocol CanvasItem {
+}
+public protocol ContainsCanvasItems : TransformationsUIShared.RenderNode {
+  func canvasItem(at point: CoreGraphics.CGPoint) -> TransformationsUIShared.CanvasItem?
+  var selectedCanvasItem: TransformationsUIShared.CanvasItem? { get set }
+}
+public protocol EditorModuleVC : UIKit.UIViewController {
+  var imageView: TransformationsUIShared.CIImageView { get }
+  func getModule() -> TransformationsUIShared.EditorModule?
+  func getRenderNode() -> TransformationsUIShared.RenderNode
+  func getTitleView() -> UIKit.UIView?
+  func editorDidRestoreSnapshot()
+  func willUpdateImageView(imageView: TransformationsUIShared.CIImageView)
+  func didUpdateImageView(imageView: TransformationsUIShared.CIImageView)
+  var discardApplyDelegate: TransformationsUIShared.DiscardApplyToolbarDelegate? { get set }
+}
+extension EditorModuleVC {
+  public func getTitleView() -> UIKit.UIView?
+  public func getModule() -> TransformationsUIShared.EditorModule?
+  public func editorDidRestoreSnapshot()
+  public func willUpdateImageView(imageView: TransformationsUIShared.CIImageView)
+  public func didUpdateImageView(imageView: TransformationsUIShared.CIImageView)
+}
+public protocol RenderNode : AnyObject {
+  var pipeline: TransformationsUIShared.RenderPipeline? { get set }
+  var uuid: Foundation.UUID { get }
+  var inputImage: CoreImage.CIImage { get set }
+  var outputImage: CoreImage.CIImage { get }
+}
+public func == (lhs: TransformationsUIShared.RenderNode, rhs: TransformationsUIShared.RenderNode) -> Swift.Bool
+public typealias Snapshot = [Swift.String : Any?]
+public protocol Snapshotable {
+  func snapshot() -> TransformationsUIShared.Snapshot
+  func restore(from snapshot: TransformationsUIShared.Snapshot)
+}
+public protocol RenderPipelineDelegate : AnyObject {
+  func outputChanged(pipeline: TransformationsUIShared.RenderPipeline)
+  func outputFinishedChanging(pipeline: TransformationsUIShared.RenderPipeline)
+}
+public protocol CIImageView : UIKit.UIView {
+  var image: CoreImage.CIImage? { get set }
+}
+public protocol Editable {
+  var isEditing: Swift.Bool { get }
+  func applyEditing()
+  func cancelEditing()
+}
+public protocol DescriptibleEditorItem : ObjectiveC.NSObject {
+  var uuid: Swift.Int { get }
+  var title: Swift.String { get }
+  var icon: UIKit.UIImage? { get }
+}
+extension DescriptibleEditorItem {
+  public var icon: UIKit.UIImage? {
+    get
+  }
+  public var uuid: Swift.Int {
+    get
+  }
+}
+public protocol EditorModule : TransformationsUIShared.DescriptibleEditorItem {
+  var isEnabled: Swift.Bool { get }
+  var viewController: TransformationsUIShared.EditorModuleVC { get }
+}
+public protocol RenderPipeline : AnyObject {
+  var delegate: TransformationsUIShared.RenderPipelineDelegate? { get set }
+  var inputImage: CoreImage.CIImage { get }
+  var outputImage: CoreImage.CIImage { get }
+  func addNode(node: TransformationsUIShared.RenderNode)
+  func removeNode(node: TransformationsUIShared.RenderNode)
+  func nodeChanged(node: TransformationsUIShared.RenderNode)
+  func nodeFinishedChanging(node: TransformationsUIShared.RenderNode)
+}
+public protocol EditorModules : AnyObject {
+  var all: [TransformationsUIShared.EditorModule] { get }
+}
+public enum BoundedRangeFormat {
+  case numeric
+  case percent
+  case degrees
+  public static func == (a: TransformationsUIShared.BoundedRangeFormat, b: TransformationsUIShared.BoundedRangeFormat) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+public protocol BoundedRangeCommand : TransformationsUIShared.EditorModuleCommand {
+  var defaultValue: Swift.Double { get }
+  var range: Swift.Range<Swift.Double> { get }
+  var componentLabels: [Swift.String] { get }
+  var format: TransformationsUIShared.BoundedRangeFormat { get }
+  func formattedString(using value: Swift.Double) -> Swift.String
+}
+extension BoundedRangeCommand {
+  public func formattedString(using value: Swift.Double) -> Swift.String
+}
+public protocol EditDataSource : AnyObject {
+  var imageFrame: CoreGraphics.CGRect { get }
+  var imageSize: CoreGraphics.CGSize { get }
+  var zoomScale: CoreGraphics.CGFloat { get }
+  var virtualFrame: CoreGraphics.CGRect { get }
+  func convertPointFromVirtualFrameToImageFrame(_ point: CoreGraphics.CGPoint) -> CoreGraphics.CGPoint
+  func convertRectFromVirtualFrameToImageFrame(_ rect: CoreGraphics.CGRect) -> CoreGraphics.CGRect
+}
+public protocol EditorModuleCommand : TransformationsUIShared.DescriptibleEditorItem {
+}
+extension CoreGraphics.CGPoint.Metric : Swift.Equatable {}
+extension CoreGraphics.CGPoint.Metric : Swift.Hashable {}
+extension TransformationsUIShared.EditorToolbarItemMode : Swift.Equatable {}
+extension TransformationsUIShared.EditorToolbarItemMode : Swift.Hashable {}
+extension TransformationsUIShared.BoundedRangeFormat : Swift.Equatable {}
+extension TransformationsUIShared.BoundedRangeFormat : Swift.Hashable {}

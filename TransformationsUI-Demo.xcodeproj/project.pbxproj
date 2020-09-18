@@ -371,7 +371,7 @@
 /* Begin XCRemoteSwiftPackageReference section */
 		45F1C15C251256C90077589B /* XCRemoteSwiftPackageReference "transformations-ui-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/filepicker/transformations-ui-ios";
+			repositoryURL = "https://github.com/filestack/transformations-ui-ios";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.0.0;

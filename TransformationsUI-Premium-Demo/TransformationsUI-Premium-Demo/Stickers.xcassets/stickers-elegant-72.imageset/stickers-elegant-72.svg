@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 356 356" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(5.55556,0,0,5.55556,-2400,-2000)">
+        <g id="Page-72" serif:id="Page 72" transform="matrix(1,0,0,1,432,360)">
+            <rect x="0" y="0" width="64" height="64" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="0" y="0" width="64" height="64"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g id="Layer-1" serif:id="Layer 1">
+                    <g transform="matrix(0,-1,-1,0,31.8333,0)">
+                        <path d="M-32,-32C-49.673,-32 -64,-17.673 -64,0C-64,17.673 -49.673,32 -32,32C-14.327,32 0,17.673 0,0C0,-17.673 -14.327,-32 -32,-32" style="fill:rgb(199,92,92);fill-rule:nonzero;"/>
+                    </g>
+                    <rect x="16" y="30" width="4" height="4" style="fill:rgb(79,93,115);"/>
+                    <g transform="matrix(1,0,0,1,0,14)">
+                        <rect x="16" y="23" width="4" height="4" style="fill:rgb(79,93,115);"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,0,28)">
+                        <rect x="16" y="16" width="4" height="4" style="fill:rgb(79,93,115);"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,0,-14)">
+                        <rect x="16" y="37" width="4" height="4" style="fill:rgb(79,93,115);"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,0,-28)">
+                        <rect x="16" y="44" width="4" height="4" style="fill:rgb(79,93,115);"/>
+                    </g>
+                    <rect x="44" y="30" width="4" height="4" style="fill:rgb(79,93,115);"/>
+                    <g transform="matrix(1,0,0,1,0,14)">
+                        <rect x="44" y="23" width="4" height="4" style="fill:rgb(79,93,115);"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,0,28)">
+                        <rect x="44" y="16" width="4" height="4" style="fill:rgb(79,93,115);"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,0,-14)">
+                        <rect x="44" y="37" width="4" height="4" style="fill:rgb(79,93,115);"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,0,-28)">
+                        <rect x="44" y="44" width="4" height="4" style="fill:rgb(79,93,115);"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,0,-18)">
+                        <rect x="24" y="34" width="16" height="14" style="fill:rgb(79,93,115);"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,0,18)">
+                        <rect x="24" y="16" width="16" height="14" style="fill:rgb(79,93,115);"/>
+                    </g>
+                    <g opacity="0.2">
+                        <g transform="matrix(1,0,0,1,0,4)">
+                            <path d="M48,18L44,18L44,14L48,14L48,18ZM48,25L44,25L44,21L48,21L48,25ZM48,32L44,32L44,28L48,28L48,32ZM48,39L44,39L44,35L48,35L48,39ZM48,46L44,46L44,42L48,42L48,46ZM40,28L24,28L24,14L40,14L40,28ZM40,46L24,46L24,32L40,32L40,46ZM20,18L16,18L16,14L20,14L20,18ZM20,25L16,25L16,21L20,21L20,25ZM20,32L16,32L16,28L20,28L20,32ZM20,39L16,39L16,35L20,35L20,39ZM20,46L16,46L16,42L20,42L20,46ZM48,10L16,10C13.791,10 12,11.791 12,14L12,46C12,48.209 13.791,50 16,50L48,50C50.209,50 52,48.209 52,46L52,14C52,11.791 50.209,10 48,10" style="fill:rgb(35,31,32);fill-rule:nonzero;"/>
+                        </g>
+                    </g>
+                    <path d="M48,20L44,20L44,16L48,16L48,20ZM48,27L44,27L44,23L48,23L48,27ZM48,34L44,34L44,30L48,30L48,34ZM48,41L44,41L44,37L48,37L48,41ZM48,48L44,48L44,44L48,44L48,48ZM40,30L24,30L24,16L40,16L40,30ZM40,48L24,48L24,34L40,34L40,48ZM20,20L16,20L16,16L20,16L20,20ZM20,27L16,27L16,23L20,23L20,27ZM20,34L16,34L16,30L20,30L20,34ZM20,41L16,41L16,37L20,37L20,41ZM20,48L16,48L16,44L20,44L20,48ZM48,12L16,12C13.791,12 12,13.791 12,16L12,48C12,50.209 13.791,52 16,52L48,52C50.209,52 52,50.209 52,48L52,16C52,13.791 50.209,12 48,12" style="fill:rgb(224,224,209);fill-rule:nonzero;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

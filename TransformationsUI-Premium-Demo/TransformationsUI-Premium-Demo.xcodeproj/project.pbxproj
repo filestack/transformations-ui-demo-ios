@@ -7,21 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		456FCCDE258BA30800B5EB3C /* Pikko.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 456FCCD5258BA2F000B5EB3C /* Pikko.xcframework */; };
+		456FCCDF258BA30800B5EB3C /* Pikko.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 456FCCD5258BA2F000B5EB3C /* Pikko.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		456FCCE0258BA30800B5EB3C /* TransformationsUI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 456FCCD6258BA2F000B5EB3C /* TransformationsUI.xcframework */; };
+		456FCCE1258BA30800B5EB3C /* TransformationsUI.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 456FCCD6258BA2F000B5EB3C /* TransformationsUI.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		456FCCE2258BA30800B5EB3C /* TransformationsUIPremiumAddOns.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 456FCCD8258BA2F000B5EB3C /* TransformationsUIPremiumAddOns.xcframework */; };
+		456FCCE3258BA30800B5EB3C /* TransformationsUIPremiumAddOns.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 456FCCD8258BA2F000B5EB3C /* TransformationsUIPremiumAddOns.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		456FCCE4258BA30800B5EB3C /* TransformationsUIShared.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 456FCCD4258BA2F000B5EB3C /* TransformationsUIShared.xcframework */; };
+		456FCCE5258BA30800B5EB3C /* TransformationsUIShared.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 456FCCD4258BA2F000B5EB3C /* TransformationsUIShared.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		456FCCE6258BA30800B5EB3C /* UberSegmentedControl.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 456FCCD7258BA2F000B5EB3C /* UberSegmentedControl.xcframework */; };
+		456FCCE7258BA30800B5EB3C /* UberSegmentedControl.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 456FCCD7258BA2F000B5EB3C /* UberSegmentedControl.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		45DDFC6225878F4A00E89B32 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45DDFC6125878F4A00E89B32 /* Stickers.xcassets */; };
 		45F1C1312512502C0077589B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F1C1302512502C0077589B /* AppDelegate.swift */; };
 		45F1C1352512502C0077589B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F1C1342512502C0077589B /* ViewController.swift */; };
 		45F1C1382512502C0077589B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F1C1362512502C0077589B /* Main.storyboard */; };
 		45F1C13A2512502D0077589B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F1C1392512502D0077589B /* Assets.xcassets */; };
 		45F1C13D2512502D0077589B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F1C13B2512502D0077589B /* LaunchScreen.storyboard */; };
-		45FDD04B2514B11800BD657C /* Pikko.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FDD0422514B10E00BD657C /* Pikko.xcframework */; };
-		45FDD04C2514B11800BD657C /* Pikko.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45FDD0422514B10E00BD657C /* Pikko.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		45FDD04D2514B11800BD657C /* TransformationsUI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FDD0432514B10E00BD657C /* TransformationsUI.xcframework */; };
-		45FDD04E2514B11800BD657C /* TransformationsUI.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45FDD0432514B10E00BD657C /* TransformationsUI.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		45FDD04F2514B11800BD657C /* TransformationsUIPremiumAddOns.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FDD0442514B10E00BD657C /* TransformationsUIPremiumAddOns.xcframework */; };
-		45FDD0502514B11800BD657C /* TransformationsUIPremiumAddOns.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45FDD0442514B10E00BD657C /* TransformationsUIPremiumAddOns.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		45FDD0512514B11800BD657C /* TransformationsUIShared.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FDD0412514B10E00BD657C /* TransformationsUIShared.xcframework */; };
-		45FDD0522514B11800BD657C /* TransformationsUIShared.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45FDD0412514B10E00BD657C /* TransformationsUIShared.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		45FDD0532514B11800BD657C /* UberSegmentedControl.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FDD0452514B10E00BD657C /* UberSegmentedControl.xcframework */; };
-		45FDD0542514B11800BD657C /* UberSegmentedControl.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45FDD0452514B10E00BD657C /* UberSegmentedControl.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,11 +32,11 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				45FDD04E2514B11800BD657C /* TransformationsUI.xcframework in Embed Frameworks */,
-				45FDD0522514B11800BD657C /* TransformationsUIShared.xcframework in Embed Frameworks */,
-				45FDD04C2514B11800BD657C /* Pikko.xcframework in Embed Frameworks */,
-				45FDD0542514B11800BD657C /* UberSegmentedControl.xcframework in Embed Frameworks */,
-				45FDD0502514B11800BD657C /* TransformationsUIPremiumAddOns.xcframework in Embed Frameworks */,
+				456FCCE1258BA30800B5EB3C /* TransformationsUI.xcframework in Embed Frameworks */,
+				456FCCE5258BA30800B5EB3C /* TransformationsUIShared.xcframework in Embed Frameworks */,
+				456FCCDF258BA30800B5EB3C /* Pikko.xcframework in Embed Frameworks */,
+				456FCCE7258BA30800B5EB3C /* UberSegmentedControl.xcframework in Embed Frameworks */,
+				456FCCE3258BA30800B5EB3C /* TransformationsUIPremiumAddOns.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,6 +44,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		456FCCD4258BA2F000B5EB3C /* TransformationsUIShared.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TransformationsUIShared.xcframework; path = ../vendor/TransformationsUIShared.xcframework; sourceTree = "<group>"; };
+		456FCCD5258BA2F000B5EB3C /* Pikko.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Pikko.xcframework; path = ../vendor/Pikko.xcframework; sourceTree = "<group>"; };
+		456FCCD6258BA2F000B5EB3C /* TransformationsUI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TransformationsUI.xcframework; path = ../vendor/TransformationsUI.xcframework; sourceTree = "<group>"; };
+		456FCCD7258BA2F000B5EB3C /* UberSegmentedControl.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = UberSegmentedControl.xcframework; path = ../vendor/UberSegmentedControl.xcframework; sourceTree = "<group>"; };
+		456FCCD8258BA2F000B5EB3C /* TransformationsUIPremiumAddOns.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TransformationsUIPremiumAddOns.xcframework; path = ../vendor/TransformationsUIPremiumAddOns.xcframework; sourceTree = "<group>"; };
+		45DDFC6125878F4A00E89B32 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
 		45F1C12D2512502C0077589B /* TransformationsUI-Premium-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TransformationsUI-Premium-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F1C1302512502C0077589B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45F1C1342512502C0077589B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,11 +57,6 @@
 		45F1C1392512502D0077589B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45F1C13C2512502D0077589B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45F1C13E2512502D0077589B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45FDD0412514B10E00BD657C /* TransformationsUIShared.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TransformationsUIShared.xcframework; path = ../vendor/TransformationsUIShared.xcframework; sourceTree = "<group>"; };
-		45FDD0422514B10E00BD657C /* Pikko.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Pikko.xcframework; path = ../vendor/Pikko.xcframework; sourceTree = "<group>"; };
-		45FDD0432514B10E00BD657C /* TransformationsUI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TransformationsUI.xcframework; path = ../vendor/TransformationsUI.xcframework; sourceTree = "<group>"; };
-		45FDD0442514B10E00BD657C /* TransformationsUIPremiumAddOns.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TransformationsUIPremiumAddOns.xcframework; path = ../vendor/TransformationsUIPremiumAddOns.xcframework; sourceTree = "<group>"; };
-		45FDD0452514B10E00BD657C /* UberSegmentedControl.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = UberSegmentedControl.xcframework; path = ../vendor/UberSegmentedControl.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,21 +64,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45FDD0512514B11800BD657C /* TransformationsUIShared.xcframework in Frameworks */,
-				45FDD04B2514B11800BD657C /* Pikko.xcframework in Frameworks */,
-				45FDD04F2514B11800BD657C /* TransformationsUIPremiumAddOns.xcframework in Frameworks */,
-				45FDD0532514B11800BD657C /* UberSegmentedControl.xcframework in Frameworks */,
-				45FDD04D2514B11800BD657C /* TransformationsUI.xcframework in Frameworks */,
+				456FCCE4258BA30800B5EB3C /* TransformationsUIShared.xcframework in Frameworks */,
+				456FCCDE258BA30800B5EB3C /* Pikko.xcframework in Frameworks */,
+				456FCCE2258BA30800B5EB3C /* TransformationsUIPremiumAddOns.xcframework in Frameworks */,
+				456FCCE6258BA30800B5EB3C /* UberSegmentedControl.xcframework in Frameworks */,
+				456FCCE0258BA30800B5EB3C /* TransformationsUI.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		456FCCD3258BA2E400B5EB3C /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				456FCCD5258BA2F000B5EB3C /* Pikko.xcframework */,
+				456FCCD6258BA2F000B5EB3C /* TransformationsUI.xcframework */,
+				456FCCD8258BA2F000B5EB3C /* TransformationsUIPremiumAddOns.xcframework */,
+				456FCCD4258BA2F000B5EB3C /* TransformationsUIShared.xcframework */,
+				456FCCD7258BA2F000B5EB3C /* UberSegmentedControl.xcframework */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
 		45F1C1242512502C0077589B = {
 			isa = PBXGroup;
 			children = (
-				45FDD0402514B0F600BD657C /* Dependencies */,
+				456FCCD3258BA2E400B5EB3C /* Dependencies */,
 				45F1C12E2512502C0077589B /* Products */,
 				45F1C12F2512502C0077589B /* TransformationsUI-Premium-Demo */,
 			);
@@ -97,22 +111,11 @@
 				45F1C1302512502C0077589B /* AppDelegate.swift */,
 				45F1C1342512502C0077589B /* ViewController.swift */,
 				45F1C1392512502D0077589B /* Assets.xcassets */,
+				45DDFC6125878F4A00E89B32 /* Stickers.xcassets */,
 				45F1C13B2512502D0077589B /* LaunchScreen.storyboard */,
 				45F1C1362512502C0077589B /* Main.storyboard */,
 			);
 			path = "TransformationsUI-Premium-Demo";
-			sourceTree = "<group>";
-		};
-		45FDD0402514B0F600BD657C /* Dependencies */ = {
-			isa = PBXGroup;
-			children = (
-				45FDD0422514B10E00BD657C /* Pikko.xcframework */,
-				45FDD0432514B10E00BD657C /* TransformationsUI.xcframework */,
-				45FDD0442514B10E00BD657C /* TransformationsUIPremiumAddOns.xcframework */,
-				45FDD0412514B10E00BD657C /* TransformationsUIShared.xcframework */,
-				45FDD0452514B10E00BD657C /* UberSegmentedControl.xcframework */,
-			);
-			name = Dependencies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +135,8 @@
 			dependencies = (
 			);
 			name = "TransformationsUI-Premium-Demo";
+			packageProductDependencies = (
+			);
 			productName = "TransformationsUI-Premium-Demo";
 			productReference = 45F1C12D2512502C0077589B /* TransformationsUI-Premium-Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -143,7 +148,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					45F1C12C2512502C0077589B = {
 						CreatedOnToolsVersion = 12.0;
@@ -159,6 +164,8 @@
 				Base,
 			);
 			mainGroup = 45F1C1242512502C0077589B;
+			packageReferences = (
+			);
 			productRefGroup = 45F1C12E2512502C0077589B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -176,6 +183,7 @@
 				45F1C13D2512502D0077589B /* LaunchScreen.storyboard in Resources */,
 				45F1C13A2512502D0077589B /* Assets.xcassets in Resources */,
 				45F1C1382512502C0077589B /* Main.storyboard in Resources */,
+				45DDFC6225878F4A00E89B32 /* Stickers.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +343,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = ZBJR46PSPF;
 				INFOPLIST_FILE = "TransformationsUI-Premium-Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -355,7 +363,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = ZBJR46PSPF;
 				INFOPLIST_FILE = "TransformationsUI-Premium-Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (

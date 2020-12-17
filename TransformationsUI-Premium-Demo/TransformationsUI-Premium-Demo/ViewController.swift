@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         let modules: TransformationsUIShared.EditorModules
 
         do {
-            let premiumModules = try PremiumModules(apiKey: "YOUR-API-KEY-HERE")
+            let premiumModules = try PremiumModules(apiKey: "YOUR-FILESTACK-API-KEY")
 
             premiumModules.transform.cropCommands.append(
                 PremiumModules.Transform.Commands.Crop(type: .rect, aspectRatio: .original)
@@ -41,6 +41,14 @@ class ViewController: UIViewController {
             )
 
             premiumModules.text.availableFontFamilies.append(contentsOf: ["Optima Regular", "Symbol", "Tahoma"])
+
+            premiumModules.sticker.stickers = [
+                "Elegant 1": (01...18).compactMap { UIImage(named: "stickers-elegant-\($0)") },
+                "Elegant 2": (19...36).compactMap { UIImage(named: "stickers-elegant-\($0)") },
+                "Elegant 3": (37...54).compactMap { UIImage(named: "stickers-elegant-\($0)") },
+                "Elegant 4": (55...72).compactMap { UIImage(named: "stickers-elegant-\($0)") },
+                "Elegant 5": (71...90).compactMap { UIImage(named: "stickers-elegant-\($0)") },
+            ]
 
             modules = premiumModules
         } catch {

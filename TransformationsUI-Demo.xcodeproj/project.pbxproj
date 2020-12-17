@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450414F0257E2CE400DBF52B /* TransformationsUI in Frameworks */ = {isa = PBXBuildFile; productRef = 450414EF257E2CE400DBF52B /* TransformationsUI */; };
+		450414F2257E2CE400DBF52B /* TransformationsUIShared in Frameworks */ = {isa = PBXBuildFile; productRef = 450414F1257E2CE400DBF52B /* TransformationsUIShared */; };
 		4517137524AA327500BC86F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4517137424AA327500BC86F5 /* AppDelegate.swift */; };
 		4517137924AA327500BC86F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4517137824AA327500BC86F5 /* ViewController.swift */; };
 		4517137C24AA327500BC86F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4517137A24AA327500BC86F5 /* Main.storyboard */; };
 		4517137E24AA327600BC86F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4517137D24AA327600BC86F5 /* Assets.xcassets */; };
 		4517138124AA327600BC86F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4517137F24AA327600BC86F5 /* LaunchScreen.storyboard */; };
-		45F1C15E251256C90077589B /* TransformationsUI in Frameworks */ = {isa = PBXBuildFile; productRef = 45F1C15D251256C90077589B /* TransformationsUI */; };
+		456FCCD1258BA23200B5EB3C /* TransformationsUI in Frameworks */ = {isa = PBXBuildFile; productRef = 456FCCD0258BA23200B5EB3C /* TransformationsUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,7 +38,6 @@
 		4517137D24AA327600BC86F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4517138024AA327600BC86F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4517138224AA327600BC86F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45EAA274250A2C6C007A3E91 /* libTransformationsUIPremiumAddOns.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTransformationsUIPremiumAddOns.a; path = "../transformations-ui-premium-addons-ios/export/TransformationsUIPremiumAddOns.xcframework/ios-arm64_x86_64-simulator/libTransformationsUIPremiumAddOns.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +45,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45F1C15E251256C90077589B /* TransformationsUI in Frameworks */,
+				456FCCD1258BA23200B5EB3C /* TransformationsUI in Frameworks */,
+				450414F2257E2CE400DBF52B /* TransformationsUIShared in Frameworks */,
+				450414F0257E2CE400DBF52B /* TransformationsUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +59,6 @@
 			children = (
 				4517137324AA327500BC86F5 /* TransformationsUI-Demo */,
 				4517137224AA327500BC86F5 /* Products */,
-				4517138924AA330B00BC86F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +83,6 @@
 			path = "TransformationsUI-Demo";
 			sourceTree = "<group>";
 		};
-		4517138924AA330B00BC86F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				45EAA274250A2C6C007A3E91 /* libTransformationsUIPremiumAddOns.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -107,7 +101,9 @@
 			);
 			name = "TransformationsUI-Demo";
 			packageProductDependencies = (
-				45F1C15D251256C90077589B /* TransformationsUI */,
+				450414EF257E2CE400DBF52B /* TransformationsUI */,
+				450414F1257E2CE400DBF52B /* TransformationsUIShared */,
+				456FCCD0258BA23200B5EB3C /* TransformationsUI */,
 			);
 			productName = "TransformationsUI-Demo";
 			productReference = 4517137124AA327500BC86F5 /* TransformationsUI-Demo.app */;
@@ -120,7 +116,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					4517137024AA327500BC86F5 = {
 						CreatedOnToolsVersion = 12.0;
@@ -137,7 +133,7 @@
 			);
 			mainGroup = 4517136824AA327500BC86F5;
 			packageReferences = (
-				45F1C15C251256C90077589B /* XCRemoteSwiftPackageReference "transformations-ui-ios" */,
+				456FCCCF258BA23200B5EB3C /* XCRemoteSwiftPackageReference "transformations-ui-ios" */,
 			);
 			productRefGroup = 4517137224AA327500BC86F5 /* Products */;
 			projectDirPath = "";
@@ -369,9 +365,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		45F1C15C251256C90077589B /* XCRemoteSwiftPackageReference "transformations-ui-ios" */ = {
+		456FCCCF258BA23200B5EB3C /* XCRemoteSwiftPackageReference "transformations-ui-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/filestack/transformations-ui-ios";
+			repositoryURL = "http://github.com/filestack/transformations-ui-ios";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.0.0;
@@ -380,9 +376,17 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		45F1C15D251256C90077589B /* TransformationsUI */ = {
+		450414EF257E2CE400DBF52B /* TransformationsUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 45F1C15C251256C90077589B /* XCRemoteSwiftPackageReference "transformations-ui-ios" */;
+			productName = TransformationsUI;
+		};
+		450414F1257E2CE400DBF52B /* TransformationsUIShared */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TransformationsUIShared;
+		};
+		456FCCD0258BA23200B5EB3C /* TransformationsUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 456FCCCF258BA23200B5EB3C /* XCRemoteSwiftPackageReference "transformations-ui-ios" */;
 			productName = TransformationsUI;
 		};
 /* End XCSwiftPackageProductDependency section */

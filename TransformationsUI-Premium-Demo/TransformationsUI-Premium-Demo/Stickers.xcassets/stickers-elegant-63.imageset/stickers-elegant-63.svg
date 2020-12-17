@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 356 356" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(5.55556,0,0,5.55556,-4000,-1600)">
+        <g id="Page-63" serif:id="Page 63" transform="matrix(1,0,0,1,720,288)">
+            <rect x="0" y="0" width="64" height="64" style="fill:none;"/>
+            <g id="Layer-1" serif:id="Layer 1">
+                <g transform="matrix(0,-1,-1,0,32,0)">
+                    <path d="M-32,-32C-49.673,-32 -64,-17.673 -64,0C-64,17.673 -49.673,32 -32,32C-14.327,32 0,17.673 0,0C0,-17.673 -14.327,-32 -32,-32" style="fill:rgb(199,92,92);fill-rule:nonzero;"/>
+                </g>
+                <g opacity="0.2">
+                    <g transform="matrix(1,0,0,1,50.1875,24.625)">
+                        <path d="M0,18.75C-2.018,17.234 -8.375,14.563 -8.375,14.563C-8.375,14.563 -15.375,20 -22.375,8.562C-30.473,-4.668 -34.188,-6.625 -34.188,-6.625C-34.188,-6.625 -38.188,-2.625 -38.188,1.375C-38.188,5.375 -34.188,11.375 -34.188,23.375C-34.188,24.48 -33.292,25.375 -32.188,25.375C-31.083,25.375 -30.187,24.48 -30.187,23.375L-30.187,9.375C-30.187,9.375 -26.187,9.375 -22.187,17.375C-18.187,25.375 -14.188,25.375 -10.188,25.375C-6.187,25.375 1.812,25.187 1.812,23.687C1.812,21.942 2.192,20.397 0,18.75" style="fill:rgb(35,31,32);fill-rule:nonzero;"/>
+                    </g>
+                </g>
+                <g transform="matrix(1,0,0,1,16,48)">
+                    <path d="M0,-32C0,-32 -4,-28 -4,-24C-4,-20 0,-14 0,-2L4,-2L4,-16C4,-16 8,-16 12,-8C16,0 20,0 24,0C28,0 36,-0.188 36,-1.688C36,-3.433 36.379,-4.978 34.188,-6.625C32.169,-8.141 25.812,-10.813 25.812,-10.813C25.812,-10.813 18.812,-5.375 11.813,-16.812C3.715,-30.043 0,-32 0,-32" style="fill:white;fill-rule:nonzero;"/>
+                </g>
+                <g transform="matrix(0,-1,-1,0,18,44)">
+                    <path d="M-2,-2C-3.105,-2 -4,-1.105 -4,0C-4,1.105 -3.105,2 -2,2C-0.895,2 0,1.105 0,0C0,-1.105 -0.895,-2 -2,-2" style="fill:white;fill-rule:nonzero;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

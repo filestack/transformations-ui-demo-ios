@@ -6,83 +6,83 @@
 	<dict>
 		<key>Headers/Pikko-Swift.h</key>
 		<data>
-		h4h4XdKe84sa/n9GOeGgQSbazvk=
+		erXKSvKh234ekeONXkiKgtKkXCI=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		BlLb2nWI30bKGD/Tzem8oFEkFaY=
+		I3N4l573YAdy/gL5GlaFf8MlEZA=
 		</data>
 		<key>Modules/Pikko.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		I9weYA6YO6SR0VPOilDKhB6YvwY=
+		rmFGTc+upGGbHF7xQ3VTR1TYRME=
 		</data>
 		<key>Modules/Pikko.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		NvK/7iK8tLkAs+2xZnA6EmA2Zg4=
+		EQ9O0Fw8ZXOREHPF3RovAySua9s=
 		</data>
 		<key>Modules/Pikko.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jYENFOSJjJQIMx7cUyDLgyhbk94=
+		N5a0T41u9paXaOojmWDP/onqT6c=
 		</data>
 		<key>Modules/Pikko.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		I9weYA6YO6SR0VPOilDKhB6YvwY=
+		rmFGTc+upGGbHF7xQ3VTR1TYRME=
 		</data>
 		<key>Modules/Pikko.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		NvK/7iK8tLkAs+2xZnA6EmA2Zg4=
+		EQ9O0Fw8ZXOREHPF3RovAySua9s=
 		</data>
 		<key>Modules/Pikko.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		jYENFOSJjJQIMx7cUyDLgyhbk94=
+		N5a0T41u9paXaOojmWDP/onqT6c=
 		</data>
 		<key>Modules/Pikko.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		4RNMzlqWqk74sT5TnnxqKT1cLB0=
+		oO1nwdMl4RbVp4hB/AojutbwUa8=
 		</data>
 		<key>Modules/Pikko.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		KJqjVFWhWt24DtQ3vFk1pVBcVLs=
+		BDwEIFYEDJAeyh8JUquaasQ+o4s=
 		</data>
 		<key>Modules/Pikko.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		s54eRByaY99mpP0VFyAFx0EYc5o=
+		GRsQuHRLXLswHvBtSNWY+qYZ+oM=
 		</data>
 		<key>Modules/Pikko.swiftmodule/i386.swiftdoc</key>
 		<data>
-		4RNMzlqWqk74sT5TnnxqKT1cLB0=
+		oO1nwdMl4RbVp4hB/AojutbwUa8=
 		</data>
 		<key>Modules/Pikko.swiftmodule/i386.swiftinterface</key>
 		<data>
-		KJqjVFWhWt24DtQ3vFk1pVBcVLs=
+		BDwEIFYEDJAeyh8JUquaasQ+o4s=
 		</data>
 		<key>Modules/Pikko.swiftmodule/i386.swiftmodule</key>
 		<data>
-		s54eRByaY99mpP0VFyAFx0EYc5o=
+		GRsQuHRLXLswHvBtSNWY+qYZ+oM=
 		</data>
 		<key>Modules/Pikko.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		sDZ9AlkL90NKwbH0MUmGA66Q8Bo=
+		7y89Qn3K1d3k44kRviN0WGSqToo=
 		</data>
 		<key>Modules/Pikko.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Y7BSYg4cq8Tm2Ww/lFuET/b388Q=
+		iSJOZUFe3Q1nJPR5QS+mXYHExLg=
 		</data>
 		<key>Modules/Pikko.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zweVJbAi1EQI6KR7wuIknC3kxgk=
+		FndZbBrDAL6HPR/5zkpizk6T2lk=
 		</data>
 		<key>Modules/Pikko.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		sDZ9AlkL90NKwbH0MUmGA66Q8Bo=
+		7y89Qn3K1d3k44kRviN0WGSqToo=
 		</data>
 		<key>Modules/Pikko.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		Y7BSYg4cq8Tm2Ww/lFuET/b388Q=
+		iSJOZUFe3Q1nJPR5QS+mXYHExLg=
 		</data>
 		<key>Modules/Pikko.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		zweVJbAi1EQI6KR7wuIknC3kxgk=
+		FndZbBrDAL6HPR/5zkpizk6T2lk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -95,209 +95,209 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			h4h4XdKe84sa/n9GOeGgQSbazvk=
+			erXKSvKh234ekeONXkiKgtKkXCI=
 			</data>
 			<key>hash2</key>
 			<data>
-			8lRxXfvuSz9WIRFhIPZGl0Fi9QGwMDN6SkerU+qQ4nM=
+			r8P6iMK/iT6Kxi7zu0ZNADCNzzzLlGaqZPfQfrTg+FY=
 			</data>
 		</dict>
 		<key>Modules/Pikko.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			I9weYA6YO6SR0VPOilDKhB6YvwY=
+			rmFGTc+upGGbHF7xQ3VTR1TYRME=
 			</data>
 			<key>hash2</key>
 			<data>
-			zueNG7BGreQOL1zEFjYM0LxiBR0x2U/dTz2pZRaFtzY=
+			Ss+JYzOhEkLT+XTeBpUYECp8sGQIj2UbC+jJUAM83SI=
 			</data>
 		</dict>
 		<key>Modules/Pikko.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NvK/7iK8tLkAs+2xZnA6EmA2Zg4=
+			EQ9O0Fw8ZXOREHPF3RovAySua9s=
 			</data>
 			<key>hash2</key>
 			<data>
-			xm7/hPadpXDMXEhTwAXbTtpN/vV5ECgAI3wM5+ta15w=
+			Z7EZJx88xSO2oghNqhvNDeeZA07CEG0G+o9h1cta3dY=
 			</data>
 		</dict>
 		<key>Modules/Pikko.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jYENFOSJjJQIMx7cUyDLgyhbk94=
+			N5a0T41u9paXaOojmWDP/onqT6c=
 			</data>
 			<key>hash2</key>
 			<data>
-			uT9fw1Vk7WZtYUeIc7JSfXwoi9YPiYTGtvYSFD7i8uU=
+			B17HGYnsy3Tzkp3oaGIYk+B36tnII0NSTzp60AAcLWU=
 			</data>
 		</dict>
 		<key>Modules/Pikko.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			I9weYA6YO6SR0VPOilDKhB6YvwY=
+			rmFGTc+upGGbHF7xQ3VTR1TYRME=
 			</data>
 			<key>hash2</key>
 			<data>
-			zueNG7BGreQOL1zEFjYM0LxiBR0x2U/dTz2pZRaFtzY=
+			Ss+JYzOhEkLT+XTeBpUYECp8sGQIj2UbC+jJUAM83SI=
 			</data>
 		</dict>
 		<key>Modules/Pikko.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NvK/7iK8tLkAs+2xZnA6EmA2Zg4=
+			EQ9O0Fw8ZXOREHPF3RovAySua9s=
 			</data>
 			<key>hash2</key>
 			<data>
-			xm7/hPadpXDMXEhTwAXbTtpN/vV5ECgAI3wM5+ta15w=
+			Z7EZJx88xSO2oghNqhvNDeeZA07CEG0G+o9h1cta3dY=
 			</data>
 		</dict>
 		<key>Modules/Pikko.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jYENFOSJjJQIMx7cUyDLgyhbk94=
+			N5a0T41u9paXaOojmWDP/onqT6c=
 			</data>
 			<key>hash2</key>
 			<data>
-			uT9fw1Vk7WZtYUeIc7JSfXwoi9YPiYTGtvYSFD7i8uU=
+			B17HGYnsy3Tzkp3oaGIYk+B36tnII0NSTzp60AAcLWU=
 			</data>
 		</dict>
 		<key>Modules/Pikko.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4RNMzlqWqk74sT5TnnxqKT1cLB0=
+			oO1nwdMl4RbVp4hB/AojutbwUa8=
 			</data>
 			<key>hash2</key>
 			<data>
-			yQOWHXsiqeevvgAPt/fdDFXfiMPLSHsO/j7x4Gl0nxY=
+			8fxIlRQyiU35+6owM1ewmQL1R+qXGVuWxLsiZEEQ0Hw=
 			</data>
 		</dict>
 		<key>Modules/Pikko.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KJqjVFWhWt24DtQ3vFk1pVBcVLs=
+			BDwEIFYEDJAeyh8JUquaasQ+o4s=
 			</data>
 			<key>hash2</key>
 			<data>
-			8hylZudUHUZYIaflPSpv6MUV7qy7/vaDvK6WjY9F5BQ=
+			iWF2lBAPsmNF3GJtUiENJj58Ngh5nZ+z6Kktql+fkGw=
 			</data>
 		</dict>
 		<key>Modules/Pikko.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			s54eRByaY99mpP0VFyAFx0EYc5o=
+			GRsQuHRLXLswHvBtSNWY+qYZ+oM=
 			</data>
 			<key>hash2</key>
 			<data>
-			IWdarlRmcHJl1386YaKp9/EUrNPciRNSFq1vPzWJ5Po=
+			jrb6j4pLhzwVwYb/McHNcZvjhkHrKaynnpgzrilAINg=
 			</data>
 		</dict>
 		<key>Modules/Pikko.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4RNMzlqWqk74sT5TnnxqKT1cLB0=
+			oO1nwdMl4RbVp4hB/AojutbwUa8=
 			</data>
 			<key>hash2</key>
 			<data>
-			yQOWHXsiqeevvgAPt/fdDFXfiMPLSHsO/j7x4Gl0nxY=
+			8fxIlRQyiU35+6owM1ewmQL1R+qXGVuWxLsiZEEQ0Hw=
 			</data>
 		</dict>
 		<key>Modules/Pikko.swiftmodule/i386.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KJqjVFWhWt24DtQ3vFk1pVBcVLs=
+			BDwEIFYEDJAeyh8JUquaasQ+o4s=
 			</data>
 			<key>hash2</key>
 			<data>
-			8hylZudUHUZYIaflPSpv6MUV7qy7/vaDvK6WjY9F5BQ=
+			iWF2lBAPsmNF3GJtUiENJj58Ngh5nZ+z6Kktql+fkGw=
 			</data>
 		</dict>
 		<key>Modules/Pikko.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			s54eRByaY99mpP0VFyAFx0EYc5o=
+			GRsQuHRLXLswHvBtSNWY+qYZ+oM=
 			</data>
 			<key>hash2</key>
 			<data>
-			IWdarlRmcHJl1386YaKp9/EUrNPciRNSFq1vPzWJ5Po=
+			jrb6j4pLhzwVwYb/McHNcZvjhkHrKaynnpgzrilAINg=
 			</data>
 		</dict>
 		<key>Modules/Pikko.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sDZ9AlkL90NKwbH0MUmGA66Q8Bo=
+			7y89Qn3K1d3k44kRviN0WGSqToo=
 			</data>
 			<key>hash2</key>
 			<data>
-			u4WLbI7+S4ck5IENXGX9vXt4da3ZV3gW3wMpXsUzjR0=
+			cgoREstlRaKVc0ZFFQ/HJbdqKq6MqDrMVKg8icOtTEM=
 			</data>
 		</dict>
 		<key>Modules/Pikko.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Y7BSYg4cq8Tm2Ww/lFuET/b388Q=
+			iSJOZUFe3Q1nJPR5QS+mXYHExLg=
 			</data>
 			<key>hash2</key>
 			<data>
-			w5k/0Q3TNLc1RYuy357MST5NH5Wd7K0BBHYNYTnRqrs=
+			B5i4Xv/CXKQ8vK9meQ7KkPyzHrGQg+7dWb2rTm/wYpc=
 			</data>
 		</dict>
 		<key>Modules/Pikko.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zweVJbAi1EQI6KR7wuIknC3kxgk=
+			FndZbBrDAL6HPR/5zkpizk6T2lk=
 			</data>
 			<key>hash2</key>
 			<data>
-			99z3yjvXeVKXBj9OL9PxpkbODZHQo7J5aI4iWpiAEGc=
+			ihEpA5bT7XXRKRqryTLLmKMy458cvjraxHikMTSe7EY=
 			</data>
 		</dict>
 		<key>Modules/Pikko.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sDZ9AlkL90NKwbH0MUmGA66Q8Bo=
+			7y89Qn3K1d3k44kRviN0WGSqToo=
 			</data>
 			<key>hash2</key>
 			<data>
-			u4WLbI7+S4ck5IENXGX9vXt4da3ZV3gW3wMpXsUzjR0=
+			cgoREstlRaKVc0ZFFQ/HJbdqKq6MqDrMVKg8icOtTEM=
 			</data>
 		</dict>
 		<key>Modules/Pikko.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Y7BSYg4cq8Tm2Ww/lFuET/b388Q=
+			iSJOZUFe3Q1nJPR5QS+mXYHExLg=
 			</data>
 			<key>hash2</key>
 			<data>
-			w5k/0Q3TNLc1RYuy357MST5NH5Wd7K0BBHYNYTnRqrs=
+			B5i4Xv/CXKQ8vK9meQ7KkPyzHrGQg+7dWb2rTm/wYpc=
 			</data>
 		</dict>
 		<key>Modules/Pikko.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zweVJbAi1EQI6KR7wuIknC3kxgk=
+			FndZbBrDAL6HPR/5zkpizk6T2lk=
 			</data>
 			<key>hash2</key>
 			<data>
-			99z3yjvXeVKXBj9OL9PxpkbODZHQo7J5aI4iWpiAEGc=
+			ihEpA5bT7XXRKRqryTLLmKMy458cvjraxHikMTSe7EY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -1,47 +1,48 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TransformationsUI
 import AVFoundation
 import AVFoundation.AVUtilities
 import Foundation
+import MetalKit
 import Swift
 import TransformationsUIShared
 import UIKit
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class Config : ObjectiveC.NSObject {
-  final public let modules: TransformationsUIShared.EditorModules
-  public init(modules: TransformationsUIShared.EditorModules = StandardModules())
-  @objc deinit
-}
 public protocol ExtraModuleCommand : TransformationsUIShared.EditorModuleCommand {
 }
 public protocol CropModuleCommand : TransformationsUIShared.EditorModuleCommand {
 }
 extension StandardModules {
-  @objc @_inheritsConvenienceInitializers public class Transform : ObjectiveC.NSObject, TransformationsUIShared.EditorModule {
+  @_hasMissingDesignatedInitializers public class Transform : TransformationsUIShared.EditorModule {
+    final public let uuid: Foundation.UUID
     public var title: Swift.String
     public var icon: UIKit.UIImage?
     public var isEnabled: Swift.Bool
-    public var viewController: TransformationsUIShared.EditorModuleVC {
-      get
-    }
+    final public let controllerType: TransformationsUIShared.EditorModuleController.Type
+    final public let nodeCategory: TransformationsUIShared.RenderNodeCategory
+    public var nodeType: TransformationsUIShared.RenderGroupChildNode.Type?
+    public var autocreatesNode: Swift.Bool
     public var extraCommands: [ExtraModuleCommand]
     public var cropCommands: [CropModuleCommand]
     @objc deinit
-    @objc override dynamic public init()
   }
 }
 extension StandardModules.Transform {
-  @objc @_inheritsConvenienceInitializers public class Commands : ObjectiveC.NSObject {
-    @objc @_inheritsConvenienceInitializers public class Rotate : ObjectiveC.NSObject, ExtraModuleCommand {
+  @_hasMissingDesignatedInitializers public class Commands {
+    @_hasMissingDesignatedInitializers public class Rotate : TransformationsUIShared.PointerHashable, ExtraModuleCommand {
+      final public let uuid: Foundation.UUID
       public var title: Swift.String
       public var icon: UIKit.UIImage? {
         get
         set
       }
-      @objc override dynamic public init()
       @objc deinit
+      public var hashValue: Swift.Int {
+        get
+      }
     }
-    @objc public class Crop : ObjectiveC.NSObject, CropModuleCommand {
+    public class Crop : TransformationsUIShared.PointerHashable, CropModuleCommand {
+      final public let uuid: Foundation.UUID
       public var title: Swift.String {
         get
         set
@@ -61,11 +62,12 @@ extension StandardModules.Transform {
         public func hash(into hasher: inout Swift.Hasher)
       }
       public init(type: StandardModules.Transform.Commands.Crop.CropType = .rect, title: Swift.String? = nil, icon: UIKit.UIImage? = nil)
-      @objc override dynamic public init()
       @objc deinit
+      public var hashValue: Swift.Int {
+        get
+      }
     }
     @objc deinit
-    @objc override dynamic public init()
   }
 }
 public class StandardModules : TransformationsUIShared.EditorModules {
@@ -75,6 +77,11 @@ public class StandardModules : TransformationsUIShared.EditorModules {
   }
   public var transform: StandardModules.Transform
   public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class Config : ObjectiveC.NSObject {
+  final public let modules: TransformationsUIShared.EditorModules
+  public init(modules: TransformationsUIShared.EditorModules = StandardModules())
   @objc deinit
 }
 public protocol TransformationsUIDelegate : AnyObject {

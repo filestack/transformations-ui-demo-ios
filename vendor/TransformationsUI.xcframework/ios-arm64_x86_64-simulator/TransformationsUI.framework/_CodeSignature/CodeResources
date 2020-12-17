@@ -6,59 +6,59 @@
 	<dict>
 		<key>Headers/TransformationsUI-Swift.h</key>
 		<data>
-		HLv54dnMzhdzaIDvI0BOYIutu2w=
+		K1+7js5SN4+1/BL4lHZQGSUNdt4=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		TKh00yIIni88olQRSa7GVVdnYMI=
+		pVeXuz4Eg3gcDqXfAFrCSeNeeJM=
 		</data>
 		<key>Modules/TransformationsUI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		y95b6C2ul5Sy7Fk2OWXomRDSDnw=
+		d3wfp7gGIsAxnNLIzIvMzvIWmMA=
 		</data>
 		<key>Modules/TransformationsUI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		qQX/8zWyGqBA69VWUD0f4VjD7dA=
+		NhPBU26SyUtuS8oAppBJxymL4R8=
 		</data>
 		<key>Modules/TransformationsUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NvN/+qOmnKYie8213z+CscZFnUY=
+		J0XNMgHVa1SZYKY0QV8kGSNavdg=
 		</data>
 		<key>Modules/TransformationsUI.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		y95b6C2ul5Sy7Fk2OWXomRDSDnw=
+		d3wfp7gGIsAxnNLIzIvMzvIWmMA=
 		</data>
 		<key>Modules/TransformationsUI.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		qQX/8zWyGqBA69VWUD0f4VjD7dA=
+		NhPBU26SyUtuS8oAppBJxymL4R8=
 		</data>
 		<key>Modules/TransformationsUI.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		NvN/+qOmnKYie8213z+CscZFnUY=
+		J0XNMgHVa1SZYKY0QV8kGSNavdg=
 		</data>
 		<key>Modules/TransformationsUI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		aW/6xA3kAlm2sY32UaAY+P+2Xhk=
+		l6sVTX4FzGdoh1VAPDRTtY/tVrk=
 		</data>
 		<key>Modules/TransformationsUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+axFYgUQr7u9nrEPGS4l/mNcb0o=
+		Iqxj29UUo0uPmEdT2pcvJjeSeXI=
 		</data>
 		<key>Modules/TransformationsUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dX11g6Q5FtwW/u7qdbw12qbu2H4=
+		xKDkkxJ6VWNTdK3bgcQ0Se0I7tE=
 		</data>
 		<key>Modules/TransformationsUI.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		aW/6xA3kAlm2sY32UaAY+P+2Xhk=
+		l6sVTX4FzGdoh1VAPDRTtY/tVrk=
 		</data>
 		<key>Modules/TransformationsUI.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		+axFYgUQr7u9nrEPGS4l/mNcb0o=
+		Iqxj29UUo0uPmEdT2pcvJjeSeXI=
 		</data>
 		<key>Modules/TransformationsUI.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		dX11g6Q5FtwW/u7qdbw12qbu2H4=
+		xKDkkxJ6VWNTdK3bgcQ0Se0I7tE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -67,91 +67,91 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6vT057G/3atrR8Vu+lqQZEvjCgeruK46dHviuT2b+10=
+			26u30xEMLfCQE3qnp3bmPBfzLG1uPOyJ2DP9TkxOom4=
 			</data>
 		</dict>
 		<key>Modules/TransformationsUI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PtyIWNIWJm/FjDisayQKQC2FP7FyeO2XZlTyZV194ZA=
+			md3W6GMIFMXcDt6819Bmy9autwuojPH9gUqxQbN4dtI=
 			</data>
 		</dict>
 		<key>Modules/TransformationsUI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PRQL4KnC7mo+vaHQzsYyqQQfomyP5U4wwAeyOyZxBBI=
+			qElGf9Nsvyehc7mGM53rHozLr4GdK6C/SlrTKLK2Z5w=
 			</data>
 		</dict>
 		<key>Modules/TransformationsUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aUZL6ehyuCcKiURJMv3LjKngkdNMMS/AbOG9Bf0xrYg=
+			eLuKU/J1Rfv6MkeRghrQqkQyVhsLK3Htzq5j3LSpiD8=
 			</data>
 		</dict>
 		<key>Modules/TransformationsUI.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PtyIWNIWJm/FjDisayQKQC2FP7FyeO2XZlTyZV194ZA=
+			md3W6GMIFMXcDt6819Bmy9autwuojPH9gUqxQbN4dtI=
 			</data>
 		</dict>
 		<key>Modules/TransformationsUI.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PRQL4KnC7mo+vaHQzsYyqQQfomyP5U4wwAeyOyZxBBI=
+			qElGf9Nsvyehc7mGM53rHozLr4GdK6C/SlrTKLK2Z5w=
 			</data>
 		</dict>
 		<key>Modules/TransformationsUI.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aUZL6ehyuCcKiURJMv3LjKngkdNMMS/AbOG9Bf0xrYg=
+			eLuKU/J1Rfv6MkeRghrQqkQyVhsLK3Htzq5j3LSpiD8=
 			</data>
 		</dict>
 		<key>Modules/TransformationsUI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3Y9wCYi4np5CTuzJPvpGFCuOQz7mFZ6b69SK7QcpDco=
+			ATjYbHuVfXXvZnbrxKX4bitMXtVQxPQydtviIZ6tjDg=
 			</data>
 		</dict>
 		<key>Modules/TransformationsUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bnn8ViCsYY3nG55HtItrNgvrEbS3zBUDG2cfSNQXugo=
+			AQAgES+qgGJewrhdiTxwA72/Awm8JXZAkkCVuND2MRA=
 			</data>
 		</dict>
 		<key>Modules/TransformationsUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EcraBU0L4tkXEXorfjNQcbSOTO0QKV3+HC9hGlAIrEE=
+			ToJfYZo+AqPzsVMEhrvAKW0UylD8Tu7sxr9bA/asplY=
 			</data>
 		</dict>
 		<key>Modules/TransformationsUI.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3Y9wCYi4np5CTuzJPvpGFCuOQz7mFZ6b69SK7QcpDco=
+			ATjYbHuVfXXvZnbrxKX4bitMXtVQxPQydtviIZ6tjDg=
 			</data>
 		</dict>
 		<key>Modules/TransformationsUI.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bnn8ViCsYY3nG55HtItrNgvrEbS3zBUDG2cfSNQXugo=
+			AQAgES+qgGJewrhdiTxwA72/Awm8JXZAkkCVuND2MRA=
 			</data>
 		</dict>
 		<key>Modules/TransformationsUI.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EcraBU0L4tkXEXorfjNQcbSOTO0QKV3+HC9hGlAIrEE=
+			ToJfYZo+AqPzsVMEhrvAKW0UylD8Tu7sxr9bA/asplY=
 			</data>
 		</dict>
 	</dict>

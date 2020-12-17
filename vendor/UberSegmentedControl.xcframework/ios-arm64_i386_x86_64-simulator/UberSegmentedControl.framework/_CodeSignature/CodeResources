@@ -6,83 +6,83 @@
 	<dict>
 		<key>Headers/UberSegmentedControl-Swift.h</key>
 		<data>
-		zUrbR6fv3r88ILzOrQqVKMTUBlM=
+		hFsh2dxNgENwJINtePN19R7KRYc=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IL+LB7T8kf0B5Lc3rdzSQxKsNGs=
+		d0unzEGPsc6BYkXvnzhGbIJk5rA=
 		</data>
 		<key>Modules/UberSegmentedControl.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		cDsLOqSwpl2DjhfU96XGX6JJYJA=
+		oCxRmVpPpNAzNU78e+rERprRc7Y=
 		</data>
 		<key>Modules/UberSegmentedControl.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		fCUtda9TNlbExjVOHl9jr/rw1MQ=
+		/L+MlceOTQoQ0GhcsyPk3g1dOko=
 		</data>
 		<key>Modules/UberSegmentedControl.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6XZdx9dB8IEvrnOwkGnWBbt4Dxk=
+		kxUQHo/sv/Gjf6z2v5MqOj7G5cE=
 		</data>
 		<key>Modules/UberSegmentedControl.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		cDsLOqSwpl2DjhfU96XGX6JJYJA=
+		oCxRmVpPpNAzNU78e+rERprRc7Y=
 		</data>
 		<key>Modules/UberSegmentedControl.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		fCUtda9TNlbExjVOHl9jr/rw1MQ=
+		/L+MlceOTQoQ0GhcsyPk3g1dOko=
 		</data>
 		<key>Modules/UberSegmentedControl.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		6XZdx9dB8IEvrnOwkGnWBbt4Dxk=
+		kxUQHo/sv/Gjf6z2v5MqOj7G5cE=
 		</data>
 		<key>Modules/UberSegmentedControl.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		fVm3msnJ2WKVlatxXqqwrp28XV8=
+		mtGEEV+o51qUN7tBZh0TLtDP7oM=
 		</data>
 		<key>Modules/UberSegmentedControl.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		4DcDCpVh5kssAhWk7YsUORvPY2s=
+		0DYllyNipFuDkP6ssyJ299jVn38=
 		</data>
 		<key>Modules/UberSegmentedControl.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Jc+iD2Uyezi2EriZ38rosTAogIE=
+		QfsRbDzw4DT5mGKXBe9uU11A+xY=
 		</data>
 		<key>Modules/UberSegmentedControl.swiftmodule/i386.swiftdoc</key>
 		<data>
-		fVm3msnJ2WKVlatxXqqwrp28XV8=
+		mtGEEV+o51qUN7tBZh0TLtDP7oM=
 		</data>
 		<key>Modules/UberSegmentedControl.swiftmodule/i386.swiftinterface</key>
 		<data>
-		4DcDCpVh5kssAhWk7YsUORvPY2s=
+		0DYllyNipFuDkP6ssyJ299jVn38=
 		</data>
 		<key>Modules/UberSegmentedControl.swiftmodule/i386.swiftmodule</key>
 		<data>
-		Jc+iD2Uyezi2EriZ38rosTAogIE=
+		QfsRbDzw4DT5mGKXBe9uU11A+xY=
 		</data>
 		<key>Modules/UberSegmentedControl.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Jm0PGtRZ9mOKnjHhI/QHrdiub2s=
+		Y/7P3Jzv3qA2807nyY1IJvAANbY=
 		</data>
 		<key>Modules/UberSegmentedControl.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		sYhpNkZF9xFOeC31houx2YMuC/Q=
+		IdvWjpGr3K4dEaXBhVo1CKRUR0M=
 		</data>
 		<key>Modules/UberSegmentedControl.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		W+1NgDOvVJ+JUW0qw/wfbRCOCIg=
+		UhRbN1N2GRORMbI5c7dnrWm053Y=
 		</data>
 		<key>Modules/UberSegmentedControl.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		Jm0PGtRZ9mOKnjHhI/QHrdiub2s=
+		Y/7P3Jzv3qA2807nyY1IJvAANbY=
 		</data>
 		<key>Modules/UberSegmentedControl.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		sYhpNkZF9xFOeC31houx2YMuC/Q=
+		IdvWjpGr3K4dEaXBhVo1CKRUR0M=
 		</data>
 		<key>Modules/UberSegmentedControl.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		W+1NgDOvVJ+JUW0qw/wfbRCOCIg=
+		UhRbN1N2GRORMbI5c7dnrWm053Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -95,209 +95,209 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zUrbR6fv3r88ILzOrQqVKMTUBlM=
+			hFsh2dxNgENwJINtePN19R7KRYc=
 			</data>
 			<key>hash2</key>
 			<data>
-			BT6fE32COyvpaaZsJGh0rqThmD+sMvNNwz9DplOQCQM=
+			Cjq2WVtB7yMOyuGiUce+hG7DhNSSkGNm9i5udGRvQGQ=
 			</data>
 		</dict>
 		<key>Modules/UberSegmentedControl.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cDsLOqSwpl2DjhfU96XGX6JJYJA=
+			oCxRmVpPpNAzNU78e+rERprRc7Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			Wu74Yf4QECqC31YaIhCmcppPdE6jVcHcZGinFBz/ftY=
+			+zG+foeUUZ+L/K19dFaL/4puSi6vM58lyxJNYracgas=
 			</data>
 		</dict>
 		<key>Modules/UberSegmentedControl.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fCUtda9TNlbExjVOHl9jr/rw1MQ=
+			/L+MlceOTQoQ0GhcsyPk3g1dOko=
 			</data>
 			<key>hash2</key>
 			<data>
-			t94pnkn/YjvZ6lWw2Nq1upMjlKfBALar/npZGJcGHqQ=
+			8/CvccaUJeUvXmpcSIoVV/9moCvD0uSQO/chdgcfLx4=
 			</data>
 		</dict>
 		<key>Modules/UberSegmentedControl.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6XZdx9dB8IEvrnOwkGnWBbt4Dxk=
+			kxUQHo/sv/Gjf6z2v5MqOj7G5cE=
 			</data>
 			<key>hash2</key>
 			<data>
-			lNa5c/mwky/4juI8H6LyqI6JMdRkva6y0TRKfUAcYiE=
+			QrOhlYYpF6BpiXqvSqdPImv+SyaZQOESvbLRqOM8emo=
 			</data>
 		</dict>
 		<key>Modules/UberSegmentedControl.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cDsLOqSwpl2DjhfU96XGX6JJYJA=
+			oCxRmVpPpNAzNU78e+rERprRc7Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			Wu74Yf4QECqC31YaIhCmcppPdE6jVcHcZGinFBz/ftY=
+			+zG+foeUUZ+L/K19dFaL/4puSi6vM58lyxJNYracgas=
 			</data>
 		</dict>
 		<key>Modules/UberSegmentedControl.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fCUtda9TNlbExjVOHl9jr/rw1MQ=
+			/L+MlceOTQoQ0GhcsyPk3g1dOko=
 			</data>
 			<key>hash2</key>
 			<data>
-			t94pnkn/YjvZ6lWw2Nq1upMjlKfBALar/npZGJcGHqQ=
+			8/CvccaUJeUvXmpcSIoVV/9moCvD0uSQO/chdgcfLx4=
 			</data>
 		</dict>
 		<key>Modules/UberSegmentedControl.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6XZdx9dB8IEvrnOwkGnWBbt4Dxk=
+			kxUQHo/sv/Gjf6z2v5MqOj7G5cE=
 			</data>
 			<key>hash2</key>
 			<data>
-			lNa5c/mwky/4juI8H6LyqI6JMdRkva6y0TRKfUAcYiE=
+			QrOhlYYpF6BpiXqvSqdPImv+SyaZQOESvbLRqOM8emo=
 			</data>
 		</dict>
 		<key>Modules/UberSegmentedControl.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fVm3msnJ2WKVlatxXqqwrp28XV8=
+			mtGEEV+o51qUN7tBZh0TLtDP7oM=
 			</data>
 			<key>hash2</key>
 			<data>
-			syVkDP831MjWKmsDr8No3wygCXLmZY7aTYk140t09R0=
+			oetmNsQCce9rVWs5KO0+v6vBeejUChTykh3x+twqt1Y=
 			</data>
 		</dict>
 		<key>Modules/UberSegmentedControl.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4DcDCpVh5kssAhWk7YsUORvPY2s=
+			0DYllyNipFuDkP6ssyJ299jVn38=
 			</data>
 			<key>hash2</key>
 			<data>
-			5mPCmsDFNUztfdEFCRsBx/mAWkv85ygx5x8E3qBbUrE=
+			qz0M5pA2gknVW7Quwz5KF2LhvHluxLzO20ocAcCC97s=
 			</data>
 		</dict>
 		<key>Modules/UberSegmentedControl.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Jc+iD2Uyezi2EriZ38rosTAogIE=
+			QfsRbDzw4DT5mGKXBe9uU11A+xY=
 			</data>
 			<key>hash2</key>
 			<data>
-			s3/y6srbJ6QW18/2UZ3aww/JRo/TLSBYLSQEIp1Yvlg=
+			3yTfqfiLiXwKosyoG0qeysqgT5Qu5sbV34M9Sczy3iU=
 			</data>
 		</dict>
 		<key>Modules/UberSegmentedControl.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fVm3msnJ2WKVlatxXqqwrp28XV8=
+			mtGEEV+o51qUN7tBZh0TLtDP7oM=
 			</data>
 			<key>hash2</key>
 			<data>
-			syVkDP831MjWKmsDr8No3wygCXLmZY7aTYk140t09R0=
+			oetmNsQCce9rVWs5KO0+v6vBeejUChTykh3x+twqt1Y=
 			</data>
 		</dict>
 		<key>Modules/UberSegmentedControl.swiftmodule/i386.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4DcDCpVh5kssAhWk7YsUORvPY2s=
+			0DYllyNipFuDkP6ssyJ299jVn38=
 			</data>
 			<key>hash2</key>
 			<data>
-			5mPCmsDFNUztfdEFCRsBx/mAWkv85ygx5x8E3qBbUrE=
+			qz0M5pA2gknVW7Quwz5KF2LhvHluxLzO20ocAcCC97s=
 			</data>
 		</dict>
 		<key>Modules/UberSegmentedControl.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Jc+iD2Uyezi2EriZ38rosTAogIE=
+			QfsRbDzw4DT5mGKXBe9uU11A+xY=
 			</data>
 			<key>hash2</key>
 			<data>
-			s3/y6srbJ6QW18/2UZ3aww/JRo/TLSBYLSQEIp1Yvlg=
+			3yTfqfiLiXwKosyoG0qeysqgT5Qu5sbV34M9Sczy3iU=
 			</data>
 		</dict>
 		<key>Modules/UberSegmentedControl.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Jm0PGtRZ9mOKnjHhI/QHrdiub2s=
+			Y/7P3Jzv3qA2807nyY1IJvAANbY=
 			</data>
 			<key>hash2</key>
 			<data>
-			T1jAkLjsvp+p3NlXl9R8TXsIEGqno359R+Q2ddyAWSs=
+			ymcaswsJVOVmi2FZHyR79tiv44J0x0hgp2HVNntTfbo=
 			</data>
 		</dict>
 		<key>Modules/UberSegmentedControl.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sYhpNkZF9xFOeC31houx2YMuC/Q=
+			IdvWjpGr3K4dEaXBhVo1CKRUR0M=
 			</data>
 			<key>hash2</key>
 			<data>
-			OWMBcLcZRhYeg1f+KNfbA0a3sxxsMSgbk8MdNNKFMh0=
+			FBWQBzNDZved5yR6DhWY4Boe/Ewc8uvBf3j5MBaFGr4=
 			</data>
 		</dict>
 		<key>Modules/UberSegmentedControl.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			W+1NgDOvVJ+JUW0qw/wfbRCOCIg=
+			UhRbN1N2GRORMbI5c7dnrWm053Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			NbTvP6TbmCzIhgPXQG971vdoKih06k03IzVwPRDrR08=
+			qYGmGC5daVnEZgdIoInCARFTz2+Dy94SuE2w0uX2D3M=
 			</data>
 		</dict>
 		<key>Modules/UberSegmentedControl.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Jm0PGtRZ9mOKnjHhI/QHrdiub2s=
+			Y/7P3Jzv3qA2807nyY1IJvAANbY=
 			</data>
 			<key>hash2</key>
 			<data>
-			T1jAkLjsvp+p3NlXl9R8TXsIEGqno359R+Q2ddyAWSs=
+			ymcaswsJVOVmi2FZHyR79tiv44J0x0hgp2HVNntTfbo=
 			</data>
 		</dict>
 		<key>Modules/UberSegmentedControl.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sYhpNkZF9xFOeC31houx2YMuC/Q=
+			IdvWjpGr3K4dEaXBhVo1CKRUR0M=
 			</data>
 			<key>hash2</key>
 			<data>
-			OWMBcLcZRhYeg1f+KNfbA0a3sxxsMSgbk8MdNNKFMh0=
+			FBWQBzNDZved5yR6DhWY4Boe/Ewc8uvBf3j5MBaFGr4=
 			</data>
 		</dict>
 		<key>Modules/UberSegmentedControl.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			W+1NgDOvVJ+JUW0qw/wfbRCOCIg=
+			UhRbN1N2GRORMbI5c7dnrWm053Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			NbTvP6TbmCzIhgPXQG971vdoKih06k03IzVwPRDrR08=
+			qYGmGC5daVnEZgdIoInCARFTz2+Dy94SuE2w0uX2D3M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

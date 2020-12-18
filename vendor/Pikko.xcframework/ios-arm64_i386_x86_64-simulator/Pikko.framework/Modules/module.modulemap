@@ -1,4 +1,0 @@
-framework module Pikko {
-  header "Pikko-Swift.h"
-  requires objc
-}

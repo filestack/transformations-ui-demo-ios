@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		450414F0257E2CE400DBF52B /* TransformationsUI in Frameworks */ = {isa = PBXBuildFile; productRef = 450414EF257E2CE400DBF52B /* TransformationsUI */; };
-		450414F2257E2CE400DBF52B /* TransformationsUIShared in Frameworks */ = {isa = PBXBuildFile; productRef = 450414F1257E2CE400DBF52B /* TransformationsUIShared */; };
 		4517137524AA327500BC86F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4517137424AA327500BC86F5 /* AppDelegate.swift */; };
 		4517137924AA327500BC86F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4517137824AA327500BC86F5 /* ViewController.swift */; };
 		4517137C24AA327500BC86F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4517137A24AA327500BC86F5 /* Main.storyboard */; };
 		4517137E24AA327600BC86F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4517137D24AA327600BC86F5 /* Assets.xcassets */; };
 		4517138124AA327600BC86F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4517137F24AA327600BC86F5 /* LaunchScreen.storyboard */; };
-		456FCCD1258BA23200B5EB3C /* TransformationsUI in Frameworks */ = {isa = PBXBuildFile; productRef = 456FCCD0258BA23200B5EB3C /* TransformationsUI */; };
+		4518681D258C33F8003D055E /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4518681C258C3393003D055E /* Stickers.xcassets */; };
+		45186843258CD918003D055E /* TransformationsUIPremiumAddOns in Frameworks */ = {isa = PBXBuildFile; productRef = 45186842258CD918003D055E /* TransformationsUIPremiumAddOns */; };
+		45186845258CD918003D055E /* TransformationsUI in Frameworks */ = {isa = PBXBuildFile; productRef = 45186844258CD918003D055E /* TransformationsUI */; };
+		45186846258CD918003D055E /* TransformationsUI in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 45186844258CD918003D055E /* TransformationsUI */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		45186848258CD918003D055E /* TransformationsUIShared in Frameworks */ = {isa = PBXBuildFile; productRef = 45186847258CD918003D055E /* TransformationsUIShared */; };
+		4518684A258CD918003D055E /* Pikko in Frameworks */ = {isa = PBXBuildFile; productRef = 45186849258CD918003D055E /* Pikko */; };
+		4518684C258CD918003D055E /* UberSegmentedControl in Frameworks */ = {isa = PBXBuildFile; productRef = 4518684B258CD918003D055E /* UberSegmentedControl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +28,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				45186846258CD918003D055E /* TransformationsUI in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,6 +43,7 @@
 		4517137D24AA327600BC86F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4517138024AA327600BC86F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4517138224AA327600BC86F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4518681C258C3393003D055E /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,9 +51,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				456FCCD1258BA23200B5EB3C /* TransformationsUI in Frameworks */,
-				450414F2257E2CE400DBF52B /* TransformationsUIShared in Frameworks */,
-				450414F0257E2CE400DBF52B /* TransformationsUI in Frameworks */,
+				4518684C258CD918003D055E /* UberSegmentedControl in Frameworks */,
+				45186848258CD918003D055E /* TransformationsUIShared in Frameworks */,
+				45186843258CD918003D055E /* TransformationsUIPremiumAddOns in Frameworks */,
+				45186845258CD918003D055E /* TransformationsUI in Frameworks */,
+				4518684A258CD918003D055E /* Pikko in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +67,7 @@
 			children = (
 				4517137324AA327500BC86F5 /* TransformationsUI-Demo */,
 				4517137224AA327500BC86F5 /* Products */,
+				45DDC241258C2B870077AE99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,10 +86,18 @@
 				4517137424AA327500BC86F5 /* AppDelegate.swift */,
 				4517137824AA327500BC86F5 /* ViewController.swift */,
 				4517137D24AA327600BC86F5 /* Assets.xcassets */,
+				4518681C258C3393003D055E /* Stickers.xcassets */,
 				4517137F24AA327600BC86F5 /* LaunchScreen.storyboard */,
 				4517137A24AA327500BC86F5 /* Main.storyboard */,
 			);
 			path = "TransformationsUI-Demo";
+			sourceTree = "<group>";
+		};
+		45DDC241258C2B870077AE99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,9 +118,11 @@
 			);
 			name = "TransformationsUI-Demo";
 			packageProductDependencies = (
-				450414EF257E2CE400DBF52B /* TransformationsUI */,
-				450414F1257E2CE400DBF52B /* TransformationsUIShared */,
-				456FCCD0258BA23200B5EB3C /* TransformationsUI */,
+				45186842258CD918003D055E /* TransformationsUIPremiumAddOns */,
+				45186844258CD918003D055E /* TransformationsUI */,
+				45186847258CD918003D055E /* TransformationsUIShared */,
+				45186849258CD918003D055E /* Pikko */,
+				4518684B258CD918003D055E /* UberSegmentedControl */,
 			);
 			productName = "TransformationsUI-Demo";
 			productReference = 4517137124AA327500BC86F5 /* TransformationsUI-Demo.app */;
@@ -133,7 +152,7 @@
 			);
 			mainGroup = 4517136824AA327500BC86F5;
 			packageReferences = (
-				456FCCCF258BA23200B5EB3C /* XCRemoteSwiftPackageReference "transformations-ui-ios" */,
+				45186841258CD918003D055E /* XCRemoteSwiftPackageReference "transformations-ui-ios" */,
 			);
 			productRefGroup = 4517137224AA327500BC86F5 /* Products */;
 			projectDirPath = "";
@@ -150,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4517138124AA327600BC86F5 /* LaunchScreen.storyboard in Resources */,
+				4518681D258C33F8003D055E /* Stickers.xcassets in Resources */,
 				4517137E24AA327600BC86F5 /* Assets.xcassets in Resources */,
 				4517137C24AA327500BC86F5 /* Main.storyboard in Resources */,
 			);
@@ -310,7 +330,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = ZBJR46PSPF;
 				INFOPLIST_FILE = "TransformationsUI-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -328,7 +348,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = ZBJR46PSPF;
 				INFOPLIST_FILE = "TransformationsUI-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -365,29 +385,41 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		456FCCCF258BA23200B5EB3C /* XCRemoteSwiftPackageReference "transformations-ui-ios" */ = {
+		45186841258CD918003D055E /* XCRemoteSwiftPackageReference "transformations-ui-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "http://github.com/filestack/transformations-ui-ios";
+			repositoryURL = "https://github.com/filestack/transformations-ui-ios/";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 1.1.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		450414EF257E2CE400DBF52B /* TransformationsUI */ = {
+		45186842258CD918003D055E /* TransformationsUIPremiumAddOns */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 45186841258CD918003D055E /* XCRemoteSwiftPackageReference "transformations-ui-ios" */;
+			productName = TransformationsUIPremiumAddOns;
+		};
+		45186844258CD918003D055E /* TransformationsUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45186841258CD918003D055E /* XCRemoteSwiftPackageReference "transformations-ui-ios" */;
 			productName = TransformationsUI;
 		};
-		450414F1257E2CE400DBF52B /* TransformationsUIShared */ = {
+		45186847258CD918003D055E /* TransformationsUIShared */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 45186841258CD918003D055E /* XCRemoteSwiftPackageReference "transformations-ui-ios" */;
 			productName = TransformationsUIShared;
 		};
-		456FCCD0258BA23200B5EB3C /* TransformationsUI */ = {
+		45186849258CD918003D055E /* Pikko */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 456FCCCF258BA23200B5EB3C /* XCRemoteSwiftPackageReference "transformations-ui-ios" */;
-			productName = TransformationsUI;
+			package = 45186841258CD918003D055E /* XCRemoteSwiftPackageReference "transformations-ui-ios" */;
+			productName = Pikko;
+		};
+		4518684B258CD918003D055E /* UberSegmentedControl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45186841258CD918003D055E /* XCRemoteSwiftPackageReference "transformations-ui-ios" */;
+			productName = UberSegmentedControl;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

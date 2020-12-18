@@ -1,4 +1,0 @@
-framework module TransformationsUIShared {
-  header "TransformationsUIShared-Swift.h"
-  requires objc
-}

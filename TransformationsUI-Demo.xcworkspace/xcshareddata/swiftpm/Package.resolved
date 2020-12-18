@@ -3,29 +3,11 @@
     "pins": [
       {
         "package": "TransformationsUI",
-        "repositoryURL": "http://github.com/filestack/transformations-ui-ios",
+        "repositoryURL": "https://github.com/filestack/transformations-ui-ios/",
         "state": {
           "branch": null,
-          "revision": "011152f547a221be17822fc8ceae4c792e948b90",
-          "version": "1.1.0"
-        }
-      },
-      {
-        "package": "TransformationsUIShared",
-        "repositoryURL": "https://github.com/filestack/transformations-ui-shared-ios.git",
-        "state": {
-          "branch": null,
-          "revision": "f9cf2cddb6a90004f4ac42339f87c555670a993d",
-          "version": "1.1.0"
-        }
-      },
-      {
-        "package": "UberSegmentedControl",
-        "repositoryURL": "https://github.com/rnine/UberSegmentedControl.git",
-        "state": {
-          "branch": null,
-          "revision": "2311615d8ec46b410a8540163ff823c6b6ece093",
-          "version": "1.3.2"
+          "revision": "dba94ee6dce4f49a40568d9ae395f37b265c8dcd",
+          "version": "1.1.2"
         }
       }
     ]

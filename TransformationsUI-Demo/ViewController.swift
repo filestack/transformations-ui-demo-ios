@@ -29,19 +29,19 @@ class ViewController: UIViewController {
         let config: Config
 
         do {
-            let premiumModules = try PremiumModules(apiKey: "YOUR-API-KEY-HERE")
+            let modules = try PremiumModules(apiKey: "YOUR-API-KEY-HERE")
 
-            premiumModules.transform.cropCommands.append(
+            modules.transform.cropCommands.append(
                 PremiumModules.Transform.Commands.Crop(type: .rect, aspectRatio: .original)
             )
 
-            premiumModules.transform.cropCommands.append(
+            modules.transform.cropCommands.append(
                 PremiumModules.Transform.Commands.Crop(type: .rect, aspectRatio: .custom(CGSize(width: 16, height: 9)))
             )
 
-            premiumModules.text.availableFontFamilies.append(contentsOf: ["Optima Regular", "Symbol", "Tahoma"])
+            modules.text.availableFontFamilies.append(contentsOf: ["Optima Regular", "Symbol", "Tahoma"])
 
-            premiumModules.sticker.stickers = [
+            modules.sticker.stickers = [
                 "Elegant 1": (01...18).compactMap { UIImage(named: "stickers-elegant-\($0)") },
                 "Elegant 2": (19...36).compactMap { UIImage(named: "stickers-elegant-\($0)") },
                 "Elegant 3": (37...54).compactMap { UIImage(named: "stickers-elegant-\($0)") },
@@ -49,7 +49,7 @@ class ViewController: UIViewController {
                 "Elegant 5": (71...90).compactMap { UIImage(named: "stickers-elegant-\($0)") },
             ]
 
-            config = Config(modules: premiumModules)
+            config = Config(modules: modules)
         } catch {
             config = Config()
         }

@@ -10,4 +10,4 @@ Filestack's [Transformations UI](https://www.filestack.com/docs/concepts/transfo
 
 ### What's Included
 
-- `TransformationsUI-Demo` showcases how to instantiate Transformations UI and use Standard and Premium modules.
+- `TransformationsUI-Demo` showcases Transformations UI usage.

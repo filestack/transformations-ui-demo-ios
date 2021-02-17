@@ -13,12 +13,8 @@
 		4517137E24AA327600BC86F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4517137D24AA327600BC86F5 /* Assets.xcassets */; };
 		4517138124AA327600BC86F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4517137F24AA327600BC86F5 /* LaunchScreen.storyboard */; };
 		4518681D258C33F8003D055E /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4518681C258C3393003D055E /* Stickers.xcassets */; };
-		45186843258CD918003D055E /* TransformationsUIPremiumAddOns in Frameworks */ = {isa = PBXBuildFile; productRef = 45186842258CD918003D055E /* TransformationsUIPremiumAddOns */; };
-		45186845258CD918003D055E /* TransformationsUI in Frameworks */ = {isa = PBXBuildFile; productRef = 45186844258CD918003D055E /* TransformationsUI */; };
-		45186846258CD918003D055E /* TransformationsUI in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 45186844258CD918003D055E /* TransformationsUI */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		45186848258CD918003D055E /* TransformationsUIShared in Frameworks */ = {isa = PBXBuildFile; productRef = 45186847258CD918003D055E /* TransformationsUIShared */; };
-		4518684A258CD918003D055E /* Pikko in Frameworks */ = {isa = PBXBuildFile; productRef = 45186849258CD918003D055E /* Pikko */; };
-		4518684C258CD918003D055E /* UberSegmentedControl in Frameworks */ = {isa = PBXBuildFile; productRef = 4518684B258CD918003D055E /* UberSegmentedControl */; };
+		45FEF30D25DD4E4F005DB0AA /* TransformationsUI in Frameworks */ = {isa = PBXBuildFile; productRef = 45FEF30C25DD4E4F005DB0AA /* TransformationsUI */; };
+		45FEF30E25DD4E4F005DB0AA /* TransformationsUI in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 45FEF30C25DD4E4F005DB0AA /* TransformationsUI */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				45186846258CD918003D055E /* TransformationsUI in Embed Frameworks */,
+				45FEF30E25DD4E4F005DB0AA /* TransformationsUI in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,11 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4518684C258CD918003D055E /* UberSegmentedControl in Frameworks */,
-				45186848258CD918003D055E /* TransformationsUIShared in Frameworks */,
-				45186843258CD918003D055E /* TransformationsUIPremiumAddOns in Frameworks */,
-				45186845258CD918003D055E /* TransformationsUI in Frameworks */,
-				4518684A258CD918003D055E /* Pikko in Frameworks */,
+				45FEF30D25DD4E4F005DB0AA /* TransformationsUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,11 +110,7 @@
 			);
 			name = "TransformationsUI-Demo";
 			packageProductDependencies = (
-				45186842258CD918003D055E /* TransformationsUIPremiumAddOns */,
-				45186844258CD918003D055E /* TransformationsUI */,
-				45186847258CD918003D055E /* TransformationsUIShared */,
-				45186849258CD918003D055E /* Pikko */,
-				4518684B258CD918003D055E /* UberSegmentedControl */,
+				45FEF30C25DD4E4F005DB0AA /* TransformationsUI */,
 			);
 			productName = "TransformationsUI-Demo";
 			productReference = 4517137124AA327500BC86F5 /* TransformationsUI-Demo.app */;
@@ -135,7 +123,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1230;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					4517137024AA327500BC86F5 = {
 						CreatedOnToolsVersion = 12.0;
@@ -152,7 +140,7 @@
 			);
 			mainGroup = 4517136824AA327500BC86F5;
 			packageReferences = (
-				45186841258CD918003D055E /* XCRemoteSwiftPackageReference "transformations-ui-ios" */,
+				45FEF30B25DD4E4F005DB0AA /* XCRemoteSwiftPackageReference "transformations-ui-ios" */,
 			);
 			productRefGroup = 4517137224AA327500BC86F5 /* Products */;
 			projectDirPath = "";
@@ -385,41 +373,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		45186841258CD918003D055E /* XCRemoteSwiftPackageReference "transformations-ui-ios" */ = {
+		45FEF30B25DD4E4F005DB0AA /* XCRemoteSwiftPackageReference "transformations-ui-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/filestack/transformations-ui-ios/";
+			repositoryURL = "https://github.com/filestack/transformations-ui-ios.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.1.2;
+				minimumVersion = 1.2.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		45186842258CD918003D055E /* TransformationsUIPremiumAddOns */ = {
+		45FEF30C25DD4E4F005DB0AA /* TransformationsUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 45186841258CD918003D055E /* XCRemoteSwiftPackageReference "transformations-ui-ios" */;
-			productName = TransformationsUIPremiumAddOns;
-		};
-		45186844258CD918003D055E /* TransformationsUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 45186841258CD918003D055E /* XCRemoteSwiftPackageReference "transformations-ui-ios" */;
+			package = 45FEF30B25DD4E4F005DB0AA /* XCRemoteSwiftPackageReference "transformations-ui-ios" */;
 			productName = TransformationsUI;
-		};
-		45186847258CD918003D055E /* TransformationsUIShared */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 45186841258CD918003D055E /* XCRemoteSwiftPackageReference "transformations-ui-ios" */;
-			productName = TransformationsUIShared;
-		};
-		45186849258CD918003D055E /* Pikko */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 45186841258CD918003D055E /* XCRemoteSwiftPackageReference "transformations-ui-ios" */;
-			productName = Pikko;
-		};
-		4518684B258CD918003D055E /* UberSegmentedControl */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 45186841258CD918003D055E /* XCRemoteSwiftPackageReference "transformations-ui-ios" */;
-			productName = UberSegmentedControl;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -7,7 +7,6 @@
 
 import UIKit
 import TransformationsUI
-import TransformationsUIPremiumAddOns
 
 class ViewController: UIViewController {
     @IBOutlet var imageView: UIImageView!
@@ -26,34 +25,31 @@ class ViewController: UIViewController {
     @IBAction func presentTransformationsUI(_ sender: AnyObject) {
         guard let image = imageView.image else { return }
 
-        let config: Config
+        let modules = Modules()
 
-        do {
-            let modules = try PremiumModules(apiKey: "YOUR-API-KEY-HERE")
+        modules.transform.cropCommands.append(
+            Modules.Transform.Commands.Crop(type: .rect, aspectRatio: .original)
+        )
 
-            modules.transform.cropCommands.append(
-                PremiumModules.Transform.Commands.Crop(type: .rect, aspectRatio: .original)
-            )
+        modules.transform.cropCommands.append(
+            Modules.Transform.Commands.Crop(type: .rect, aspectRatio: .custom(CGSize(width: 16, height: 9)))
+        )
 
-            modules.transform.cropCommands.append(
-                PremiumModules.Transform.Commands.Crop(type: .rect, aspectRatio: .custom(CGSize(width: 16, height: 9)))
-            )
+        modules.text.availableFontFamilies.append(contentsOf: ["Optima Regular", "Symbol", "Tahoma"])
 
-            modules.text.availableFontFamilies.append(contentsOf: ["Optima Regular", "Symbol", "Tahoma"])
+        modules.stickers.stickers = [
+            "Elegant 1": (01...18).compactMap { UIImage(named: "stickers-elegant-\($0)") },
+            "Elegant 2": (19...36).compactMap { UIImage(named: "stickers-elegant-\($0)") },
+            "Elegant 3": (37...54).compactMap { UIImage(named: "stickers-elegant-\($0)") },
+            "Elegant 4": (55...72).compactMap { UIImage(named: "stickers-elegant-\($0)") },
+            "Elegant 5": (71...90).compactMap { UIImage(named: "stickers-elegant-\($0)") },
+        ]
 
-            modules.sticker.stickers = [
-                "Elegant 1": (01...18).compactMap { UIImage(named: "stickers-elegant-\($0)") },
-                "Elegant 2": (19...36).compactMap { UIImage(named: "stickers-elegant-\($0)") },
-                "Elegant 3": (37...54).compactMap { UIImage(named: "stickers-elegant-\($0)") },
-                "Elegant 4": (55...72).compactMap { UIImage(named: "stickers-elegant-\($0)") },
-                "Elegant 5": (71...90).compactMap { UIImage(named: "stickers-elegant-\($0)") },
-            ]
+        modules.overlays.callbackURLScheme = "transformationsuidemo"
+        modules.overlays.filestackAPIKey = "YOUR-FILESTACK-API-KEY"
+        modules.overlays.filestackAppSecret = "YOUR-FILESTACK-APP-SECRET"
 
-            config = Config(modules: modules)
-        } catch {
-            config = Config()
-        }
-
+        let config = Config(modules: modules)
         let transformationsUI = TransformationsUI(with: config)
 
         transformationsUI.delegate = self

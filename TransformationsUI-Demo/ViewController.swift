@@ -52,8 +52,10 @@ class ViewController: UIViewController {
         let config = Config(modules: modules)
         let transformationsUI = TransformationsUI(with: config)
 
+        // Set TransformationsUI delegate.
         transformationsUI.delegate = self
 
+        // Present TransformationsUI editor.
         if let editorVC = transformationsUI.editor(with: image) {
             editorVC.modalPresentationStyle = .fullScreen
             present(editorVC, animated: true)
@@ -62,6 +64,7 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: TransformationsUIDelegate {
+    /// Called when the TransformationsUI editor is dismissed.
     func editorDismissed(with image: UIImage?) {
         editedImageView.image = image ?? UIImage(named: "placeholder")
     }

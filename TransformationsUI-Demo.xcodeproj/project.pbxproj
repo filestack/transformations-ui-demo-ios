@@ -13,6 +13,10 @@
 		4517137E24AA327600BC86F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4517137D24AA327600BC86F5 /* Assets.xcassets */; };
 		4517138124AA327600BC86F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4517137F24AA327600BC86F5 /* LaunchScreen.storyboard */; };
 		4518681D258C33F8003D055E /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4518681C258C3393003D055E /* Stickers.xcassets */; };
+		45CAA2EE263B0E2700667EE9 /* Filestack in Frameworks */ = {isa = PBXBuildFile; productRef = 45CAA2ED263B0E2700667EE9 /* Filestack */; };
+		45CAA2EF263B0E2700667EE9 /* Filestack in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 45CAA2ED263B0E2700667EE9 /* Filestack */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		45CAA2F2263B0E3100667EE9 /* FilestackSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 45CAA2F1263B0E3100667EE9 /* FilestackSDK */; };
+		45CAA2F3263B0E3100667EE9 /* FilestackSDK in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 45CAA2F1263B0E3100667EE9 /* FilestackSDK */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		45FEF30D25DD4E4F005DB0AA /* TransformationsUI in Frameworks */ = {isa = PBXBuildFile; productRef = 45FEF30C25DD4E4F005DB0AA /* TransformationsUI */; };
 		45FEF30E25DD4E4F005DB0AA /* TransformationsUI in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 45FEF30C25DD4E4F005DB0AA /* TransformationsUI */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -24,7 +28,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				45CAA2F3263B0E3100667EE9 /* FilestackSDK in Embed Frameworks */,
 				45FEF30E25DD4E4F005DB0AA /* TransformationsUI in Embed Frameworks */,
+				45CAA2EF263B0E2700667EE9 /* Filestack in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,7 +53,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45CAA2F2263B0E3100667EE9 /* FilestackSDK in Frameworks */,
 				45FEF30D25DD4E4F005DB0AA /* TransformationsUI in Frameworks */,
+				45CAA2EE263B0E2700667EE9 /* Filestack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +119,8 @@
 			name = "TransformationsUI-Demo";
 			packageProductDependencies = (
 				45FEF30C25DD4E4F005DB0AA /* TransformationsUI */,
+				45CAA2ED263B0E2700667EE9 /* Filestack */,
+				45CAA2F1263B0E3100667EE9 /* FilestackSDK */,
 			);
 			productName = "TransformationsUI-Demo";
 			productReference = 4517137124AA327500BC86F5 /* TransformationsUI-Demo.app */;
@@ -123,7 +133,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					4517137024AA327500BC86F5 = {
 						CreatedOnToolsVersion = 12.0;
@@ -141,6 +151,8 @@
 			mainGroup = 4517136824AA327500BC86F5;
 			packageReferences = (
 				45FEF30B25DD4E4F005DB0AA /* XCRemoteSwiftPackageReference "transformations-ui-ios" */,
+				45CAA2EC263B0E2700667EE9 /* XCRemoteSwiftPackageReference "filestack-ios" */,
+				45CAA2F0263B0E3100667EE9 /* XCRemoteSwiftPackageReference "filestack-swift" */,
 			);
 			productRefGroup = 4517137224AA327500BC86F5 /* Products */;
 			projectDirPath = "";
@@ -373,17 +385,43 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		45CAA2EC263B0E2700667EE9 /* XCRemoteSwiftPackageReference "filestack-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/filestack/filestack-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.1;
+			};
+		};
+		45CAA2F0263B0E3100667EE9 /* XCRemoteSwiftPackageReference "filestack-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/filestack/filestack-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.0;
+			};
+		};
 		45FEF30B25DD4E4F005DB0AA /* XCRemoteSwiftPackageReference "transformations-ui-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/filestack/transformations-ui-ios.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.2.0;
+				minimumVersion = 1.3.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		45CAA2ED263B0E2700667EE9 /* Filestack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45CAA2EC263B0E2700667EE9 /* XCRemoteSwiftPackageReference "filestack-ios" */;
+			productName = Filestack;
+		};
+		45CAA2F1263B0E3100667EE9 /* FilestackSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45CAA2F0263B0E3100667EE9 /* XCRemoteSwiftPackageReference "filestack-swift" */;
+			productName = FilestackSDK;
+		};
 		45FEF30C25DD4E4F005DB0AA /* TransformationsUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 45FEF30B25DD4E4F005DB0AA /* XCRemoteSwiftPackageReference "transformations-ui-ios" */;

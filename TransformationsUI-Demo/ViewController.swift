@@ -7,6 +7,8 @@
 
 import UIKit
 import TransformationsUI
+import Filestack
+import FilestackSDK
 
 class ViewController: UIViewController {
     @IBOutlet var imageView: UIImageView!
@@ -45,20 +47,34 @@ class ViewController: UIViewController {
             "Elegant 5": (71...90).compactMap { UIImage(named: "stickers-elegant-\($0)") },
         ]
 
-        modules.overlays.callbackURLScheme = "transformationsuidemo"
-        modules.overlays.filestackAPIKey = "YOUR-FILESTACK-API-KEY"
-        modules.overlays.filestackAppSecret = "YOUR-FILESTACK-APP-SECRET"
+        do {
+            let fsConfig = Filestack.Config.builder
+                .with(callbackURLScheme: "transformationsuidemo")
+                .with(imageURLExportPreset: .current)
+                .with(maximumSelectionLimit: 1)
+                .with(documentPickerAllowedUTIs: ["public.image"])
+                .with(cloudSourceAllowedUTIs: ["public.image"])
+                .build()
 
-        let config = Config(modules: modules)
-        let transformationsUI = TransformationsUI(with: config)
+            let policy = Policy(expiry: .distantFuture,
+                                call: [.pick, .read, .stat, .write, .writeURL, .store, .convert, .remove, .exif])
 
-        // Set TransformationsUI delegate.
-        transformationsUI.delegate = self
+            let security = try FilestackSDK.Security(policy: policy, appSecret: "YOUR-APP-SECRET")
+            let fsClient = Filestack.Client(apiKey: "YOUR-API-KEY", security: security, config: fsConfig)
+            let config = try Config(modules: modules, fsClient: fsClient)
 
-        // Present TransformationsUI editor.
-        if let editorVC = transformationsUI.editor(with: image) {
-            editorVC.modalPresentationStyle = .fullScreen
-            present(editorVC, animated: true)
+            let transformationsUI = TransformationsUI(with: config)
+
+            // Set TransformationsUI delegate.
+            transformationsUI.delegate = self
+
+            // Present TransformationsUI editor.
+            if let editorVC = transformationsUI.editor(with: image) {
+                editorVC.modalPresentationStyle = .fullScreen
+                present(editorVC, animated: true)
+            }
+        } catch {
+            print("Error: \(error.localizedDescription)")
         }
     }
 }

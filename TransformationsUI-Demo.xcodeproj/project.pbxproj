@@ -13,12 +13,10 @@
 		4517137E24AA327600BC86F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4517137D24AA327600BC86F5 /* Assets.xcassets */; };
 		4517138124AA327600BC86F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4517137F24AA327600BC86F5 /* LaunchScreen.storyboard */; };
 		4518681D258C33F8003D055E /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4518681C258C3393003D055E /* Stickers.xcassets */; };
-		45CAA2EE263B0E2700667EE9 /* Filestack in Frameworks */ = {isa = PBXBuildFile; productRef = 45CAA2ED263B0E2700667EE9 /* Filestack */; };
-		45CAA2EF263B0E2700667EE9 /* Filestack in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 45CAA2ED263B0E2700667EE9 /* Filestack */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		45CAA2F2263B0E3100667EE9 /* FilestackSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 45CAA2F1263B0E3100667EE9 /* FilestackSDK */; };
-		45CAA2F3263B0E3100667EE9 /* FilestackSDK in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 45CAA2F1263B0E3100667EE9 /* FilestackSDK */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		45FEF30D25DD4E4F005DB0AA /* TransformationsUI in Frameworks */ = {isa = PBXBuildFile; productRef = 45FEF30C25DD4E4F005DB0AA /* TransformationsUI */; };
-		45FEF30E25DD4E4F005DB0AA /* TransformationsUI in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 45FEF30C25DD4E4F005DB0AA /* TransformationsUI */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		453B31BB26CA66E30010FCA9 /* FilestackSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 453B31BA26CA66E30010FCA9 /* FilestackSDK */; };
+		453B31BD26CA6B740010FCA9 /* TransformationsUI in Frameworks */ = {isa = PBXBuildFile; productRef = 453B31BC26CA6B740010FCA9 /* TransformationsUI */; };
+		453B31C026CA6BA70010FCA9 /* TransformationsUI in Frameworks */ = {isa = PBXBuildFile; productRef = 453B31BF26CA6BA70010FCA9 /* TransformationsUI */; };
+		45873F0826CA667400397F63 /* Filestack in Frameworks */ = {isa = PBXBuildFile; productRef = 45873F0726CA667400397F63 /* Filestack */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,9 +26,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				45CAA2F3263B0E3100667EE9 /* FilestackSDK in Embed Frameworks */,
-				45FEF30E25DD4E4F005DB0AA /* TransformationsUI in Embed Frameworks */,
-				45CAA2EF263B0E2700667EE9 /* Filestack in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +41,7 @@
 		4517138024AA327600BC86F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4517138224AA327600BC86F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4518681C258C3393003D055E /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		4539835526CA5DD80059739D /* transformations-ui-ios */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "transformations-ui-ios"; path = "../transformations-ui-ios"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +49,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45CAA2F2263B0E3100667EE9 /* FilestackSDK in Frameworks */,
-				45FEF30D25DD4E4F005DB0AA /* TransformationsUI in Frameworks */,
-				45CAA2EE263B0E2700667EE9 /* Filestack in Frameworks */,
+				453B31BD26CA6B740010FCA9 /* TransformationsUI in Frameworks */,
+				453B31C026CA6BA70010FCA9 /* TransformationsUI in Frameworks */,
+				453B31BB26CA66E30010FCA9 /* FilestackSDK in Frameworks */,
+				45873F0826CA667400397F63 /* Filestack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +62,7 @@
 		4517136824AA327500BC86F5 = {
 			isa = PBXGroup;
 			children = (
+				4539835526CA5DD80059739D /* transformations-ui-ios */,
 				4517137324AA327500BC86F5 /* TransformationsUI-Demo */,
 				4517137224AA327500BC86F5 /* Products */,
 				45DDC241258C2B870077AE99 /* Frameworks */,
@@ -118,9 +116,10 @@
 			);
 			name = "TransformationsUI-Demo";
 			packageProductDependencies = (
-				45FEF30C25DD4E4F005DB0AA /* TransformationsUI */,
-				45CAA2ED263B0E2700667EE9 /* Filestack */,
-				45CAA2F1263B0E3100667EE9 /* FilestackSDK */,
+				45873F0726CA667400397F63 /* Filestack */,
+				453B31BA26CA66E30010FCA9 /* FilestackSDK */,
+				453B31BC26CA6B740010FCA9 /* TransformationsUI */,
+				453B31BF26CA6BA70010FCA9 /* TransformationsUI */,
 			);
 			productName = "TransformationsUI-Demo";
 			productReference = 4517137124AA327500BC86F5 /* TransformationsUI-Demo.app */;
@@ -133,7 +132,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1300;
 				TargetAttributes = {
 					4517137024AA327500BC86F5 = {
 						CreatedOnToolsVersion = 12.0;
@@ -150,9 +149,9 @@
 			);
 			mainGroup = 4517136824AA327500BC86F5;
 			packageReferences = (
-				45FEF30B25DD4E4F005DB0AA /* XCRemoteSwiftPackageReference "transformations-ui-ios" */,
-				45CAA2EC263B0E2700667EE9 /* XCRemoteSwiftPackageReference "filestack-ios" */,
-				45CAA2F0263B0E3100667EE9 /* XCRemoteSwiftPackageReference "filestack-swift" */,
+				45873F0626CA667400397F63 /* XCRemoteSwiftPackageReference "filestack-ios" */,
+				453B31B926CA66E30010FCA9 /* XCRemoteSwiftPackageReference "filestack-swift" */,
+				453B31BE26CA6BA70010FCA9 /* XCRemoteSwiftPackageReference "transformations-ui-ios" */,
 			);
 			productRefGroup = 4517137224AA327500BC86F5 /* Products */;
 			projectDirPath = "";
@@ -329,15 +328,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZBJR46PSPF;
 				INFOPLIST_FILE = "TransformationsUI-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.filestack.TransformationsUI-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -347,15 +349,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZBJR46PSPF;
 				INFOPLIST_FILE = "TransformationsUI-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.filestack.TransformationsUI-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -385,23 +390,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		45CAA2EC263B0E2700667EE9 /* XCRemoteSwiftPackageReference "filestack-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/filestack/filestack-ios.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.7.1;
-			};
-		};
-		45CAA2F0263B0E3100667EE9 /* XCRemoteSwiftPackageReference "filestack-swift" */ = {
+		453B31B926CA66E30010FCA9 /* XCRemoteSwiftPackageReference "filestack-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/filestack/filestack-swift.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.7.0;
+				minimumVersion = 2.8.0;
 			};
 		};
-		45FEF30B25DD4E4F005DB0AA /* XCRemoteSwiftPackageReference "transformations-ui-ios" */ = {
+		453B31BE26CA6BA70010FCA9 /* XCRemoteSwiftPackageReference "transformations-ui-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/filestack/transformations-ui-ios.git";
 			requirement = {
@@ -409,23 +406,35 @@
 				minimumVersion = 1.3.0;
 			};
 		};
+		45873F0626CA667400397F63 /* XCRemoteSwiftPackageReference "filestack-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/filestack/filestack-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		45CAA2ED263B0E2700667EE9 /* Filestack */ = {
+		453B31BA26CA66E30010FCA9 /* FilestackSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 45CAA2EC263B0E2700667EE9 /* XCRemoteSwiftPackageReference "filestack-ios" */;
-			productName = Filestack;
-		};
-		45CAA2F1263B0E3100667EE9 /* FilestackSDK */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 45CAA2F0263B0E3100667EE9 /* XCRemoteSwiftPackageReference "filestack-swift" */;
+			package = 453B31B926CA66E30010FCA9 /* XCRemoteSwiftPackageReference "filestack-swift" */;
 			productName = FilestackSDK;
 		};
-		45FEF30C25DD4E4F005DB0AA /* TransformationsUI */ = {
+		453B31BC26CA6B740010FCA9 /* TransformationsUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 45FEF30B25DD4E4F005DB0AA /* XCRemoteSwiftPackageReference "transformations-ui-ios" */;
 			productName = TransformationsUI;
+		};
+		453B31BF26CA6BA70010FCA9 /* TransformationsUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 453B31BE26CA6BA70010FCA9 /* XCRemoteSwiftPackageReference "transformations-ui-ios" */;
+			productName = TransformationsUI;
+		};
+		45873F0726CA667400397F63 /* Filestack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45873F0626CA667400397F63 /* XCRemoteSwiftPackageReference "filestack-ios" */;
+			productName = Filestack;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

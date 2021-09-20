@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/filestack/filestack-ios.git",
         "state": {
           "branch": null,
-          "revision": "38739b07f19bb8f614a4176753d359d1cd2a8612",
-          "version": "2.7.1"
+          "revision": "7ceccd52783e5df108ac447b6aa759f964d0c042",
+          "version": "2.8.1"
         }
       },
       {
@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/filestack/filestack-swift.git",
         "state": {
           "branch": null,
-          "revision": "ea85045fe0d580d8401b63cf0c4ae0bc738a8ae4",
-          "version": "2.7.0"
+          "revision": "5ba0ac9ca2fb53ccf18335b1654b8cc600785b66",
+          "version": "2.8.0"
         }
       },
       {
@@ -24,17 +24,8 @@
         "repositoryURL": "https://github.com/rnine/Pikko.git",
         "state": {
           "branch": null,
-          "revision": "c2885187d32273f67b5520349b511706c3123843",
-          "version": "1.0.9"
-        }
-      },
-      {
-        "package": "TransformationsUI",
-        "repositoryURL": "https://github.com/filestack/transformations-ui-ios.git",
-        "state": {
-          "branch": null,
-          "revision": "9944830a08f2dbc9c27601369f372b7ba4a49771",
-          "version": "1.3.0"
+          "revision": "6596e60ef5ca32a5e242788218b03f5c24412acb",
+          "version": "1.1.0"
         }
       },
       {
@@ -42,8 +33,8 @@
         "repositoryURL": "https://github.com/rnine/UberSegmentedControl.git",
         "state": {
           "branch": null,
-          "revision": "84f199d9d14d8fc786cec377f632e543fcbb7b43",
-          "version": "1.3.4"
+          "revision": "4df7107bd875f7fd1768002a7a0cbea9d16b4c18",
+          "version": "1.3.5"
         }
       },
       {

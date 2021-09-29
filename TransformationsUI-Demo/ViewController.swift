@@ -10,6 +10,12 @@ import TransformationsUI
 import Filestack
 import FilestackSDK
 
+// Set your Filestack's API key here.
+private let filestackAPIKey = "ApE9Z0XfWRueyywDTyu4tz"
+
+// Set your Filestack's app secret here.
+private let filestackAppSecret = "7QUKQNWPB5H7PK4MEMMDVBN66E"
+
 class ViewController: UIViewController {
     @IBOutlet var imageView: UIImageView!
     @IBOutlet var editedImageView: UIImageView!
@@ -59,8 +65,8 @@ class ViewController: UIViewController {
             let policy = Policy(expiry: .distantFuture,
                                 call: [.pick, .read, .stat, .write, .writeURL, .store, .convert, .remove, .exif])
 
-            let security = try FilestackSDK.Security(policy: policy, appSecret: "YOUR-APP-SECRET")
-            let fsClient = Filestack.Client(apiKey: "YOUR-API-KEY", security: security, config: fsConfig)
+            let security = try FilestackSDK.Security(policy: policy, appSecret: filestackAppSecret)
+            let fsClient = Filestack.Client(apiKey: filestackAPIKey, security: security, config: fsConfig)
             let config = try Config(modules: modules, fsClient: fsClient)
 
             let transformationsUI = TransformationsUI(with: config)
